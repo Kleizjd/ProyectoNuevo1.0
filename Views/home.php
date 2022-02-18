@@ -4,10 +4,10 @@
 	// $arrBanner = $data['banner'];
 	// $arrProductos = $data['productos'];
 
-	// $contentPage = "";
-	// if(!empty($data['page'])){
-	// 	$contentPage = $data['page']['contenido'];
-	// }
+	$contentPage = "";
+	if(!empty($data['page'])){
+		$contentPage = $data['page']['contenido'];
+	}
 
  ?>
  
