@@ -94,17 +94,30 @@
                         </li>
                     </ul>
                     <ul class="navbar-nav my-lg-0">
-                        <!-- ============================================================== -->
-                        <!-- User profile and search -->
-                        <!-- ============================================================== -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href=""
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
-                                    src="<?= media() ?>/images/users/1.jpg" alt="user" class="img-circle" width="30"></a>
-                        </li>
-                        <!-- ============================================================== -->
-                        <!-- User profile and search -->
-                        <!-- ============================================================== -->
+                       <li class="nav-item dropdown" id="img_profile_header">
+					<a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="<?= media() ?>/images/users/1.jpg" alt="user" class="img-circle" width="30"></a></a>
+					<div class="dropdown-menu dropdown-menu-right user-dd animated flipInY">
+						<span class="with-arrow"><span class="bg-primary"></span></span>
+						<div class="d-flex no-block align-items-center p-15 bg-primary text-white m-b-10">
+							<div class="" id="img_profile_herence_carga"><img src="<?= media() ?>//images/users/1.jpg" alt="user" id="img_profile_herence" class="img-circle" width="60"></div>
+							<div class="m-l-10">
+								<h4 class="m-b-0" id="complete_name_window"><? //$_SESSION['nombre_completo']; ?></h4>
+								<p class=" m-b-0">
+									<a class="eml-protected" href="#"></a>
+							</div>
+						</div>
+						<div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="javascript:void(0)"><i class="ti-user m-r-5 m-l-5"></i> My Profile</a>
+						<a class="dropdown-item" href="javascript:void(0)" id="viewOwnAcount"><i class="ti-settings m-r-5 m-l-5"></i>Configuracion</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal"><i class="fa fa-power-off m-r-5 m-l-5"></i> Salir</a>
+						<div class="dropdown-divider"></div>
+					</div>
+				</li>
+				<!-- ============================================================== -->
+				<!-- User profile and search -->
+				<!-- ============================================================== -->
+				<li class="nav-item right-side-toggle"> <a class="nav-link  waves-effect waves-light" href="javascript:void(0)"><i class="ti-settings"></i></a></li>
                     </ul>
                 </div>
             </nav>
