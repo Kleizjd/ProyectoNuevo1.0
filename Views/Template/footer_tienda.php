@@ -110,7 +110,7 @@
             });
         });
     </script>
-<script src="<?= media() ?>/vendor/moment/moment-with-locales.min.js"></script>
-<script type="text/javascript" src="<?= media() ?>/vendor/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js"></script>
+<!-- <script src="<?= media() ?>/vendor/moment/moment-with-locales.min.js"></script> -->
+<!-- <script type="text/javascript" src="<?= media() ?>/vendor/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js"></script> -->
 <script src="<?= media() ?>/vendor/sweetalert/js/sweetalert2.min.js"></script> 
 <!-- \\Fin SCRIPTS -->

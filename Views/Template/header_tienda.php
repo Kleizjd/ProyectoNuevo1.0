@@ -11,7 +11,7 @@
     <!--===============================[ Owl-Carousel-CSS ]================================================-->
     <link rel="stylesheet" href="<?= media() ?>/template/my-css-js/css/owl.carousel.css" type="text/css" media="all" />
     <!--===================================================================================================-->
-    <link rel="stylesheet" type="text/css" href="<?= media() ?>/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="<?= media() ?>/vendor/bootstrap-4.4.1-dist/css/bootstrap.min.css">
     <!--===============================[  Popup-Box-CSS   ]================================================-->
     <link rel="stylesheet" href="<?= media() ?>/template/my-css-js/css/popuo-box.css" type="text/css" media="all" />
     <!--===================================================================================================-->
