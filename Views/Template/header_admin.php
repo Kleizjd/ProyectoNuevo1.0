@@ -21,9 +21,9 @@
     <!--c3 plugins CSS -->
     <link href="<?= media() ?>/node_modules/c3-master/c3.min.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="html/dist/css/style.css" rel="stylesheet">
+    <link href="<?= media() ?>/template/dist/css/style.css" rel="stylesheet">
     <!-- Dashboard 1 Page CSS -->
-    <link href="html/dist/css/pages/dashboard1.css" rel="stylesheet">
+    <link href="<?= media() ?>/template/dist/css/pages/dashboard1.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -112,49 +112,7 @@
         <!-- ============================================================== -->
         <!-- End Topbar header -->
         <!-- ============================================================== -->
-        <!-- ============================================================== -->
-        <!-- Left Sidebar - style you can find in sidebar.scss  -->
-        <!-- ============================================================== -->
-        <aside class="left-sidebar">
-            <div class="d-flex no-block nav-text-box align-items-center">
-                <span><img src="<?= media() ?>/images/logo-icon.png" alt="elegant admin template"></span>
-                <a class="waves-effect waves-dark ml-auto hidden-sm-down" href="javascript:void(0)"><i
-                        class="ti-menu"></i></a>
-                <a class="nav-toggler waves-effect waves-dark ml-auto hidden-sm-up" href="javascript:void(0)"><i
-                        class="ti-menu ti-close"></i></a>
-            </div>
-            <!-- Sidebar scroll-->
-            <div class="scroll-sidebar">
-                <!-- Sidebar navigation-->
-                <nav class="sidebar-nav">
-                    <ul id="sidebarnav">
-                        <li> <a class="waves-effect waves-dark" href="index.html" aria-expanded="false"><i
-                                    class="fa fa-tachometer"></i><span class="hide-menu">Dashboard</span></a></li>
-                        <li> <a class="waves-effect waves-dark" href="pages-profile.html" aria-expanded="false"><i
-                                    class="fa fa-user-circle-o"></i><span class="hide-menu">Profile</span></a></li>
-                        <li> <a class="waves-effect waves-dark" href="table-basic.html" aria-expanded="false"><i
-                                    class="fa fa-table"></i><span class="hide-menu"></span>Tables</a></li>
-                        <li> <a class="waves-effect waves-dark" href="icon-fontawesome.html" aria-expanded="false"><i
-                                    class="fa fa-smile-o"></i><span class="hide-menu"></span>Icon</a></li>
-                        <li> <a class="waves-effect waves-dark" href="map-google.html" aria-expanded="false"><i
-                                    class="fa fa-globe"></i><span class="hide-menu"></span>Map</a></li>
-                        <li> <a class="waves-effect waves-dark" href="pages-blank.html" aria-expanded="false"><i
-                                    class="fa fa-bookmark-o"></i><span class="hide-menu"></span>Blank</a></li>
-                        <li> <a class="waves-effect waves-dark" href="pages-error-404.html" aria-expanded="false"><i
-                                    class="fa fa-question-circle"></i><span class="hide-menu"></span>404</a></li>
-                        <div class="text-center m-t-30">
-                            <a href="https://wrappixel.com/templates/elegant-admin/"
-                                class="btn waves-effect waves-light btn-success hidden-md-down"> Upgrade to Pro</a>
-                        </div>
-                    </ul>
-                </nav>
-                <!-- End Sidebar navigation -->
-            </div>
-            <!-- End Sidebar scroll-->
-        </aside>
-        <!-- ============================================================== -->
-        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
-        <!-- ============================================================== -->
+
         <!-- ============================================================== -->
         <!-- Page wrapper  -->
         <!-- ============================================================== -->
@@ -496,43 +454,4 @@
         <!-- ============================================================== -->
         <!-- footer -->
         <!-- ============================================================== -->
-        <footer class="footer">
-            © 2020 Elegent Admin by <a href="https://www.wrappixel.com/">wrappixel.com</a>
-        </footer>
-        <!-- ============================================================== -->
-        <!-- End footer -->
-        <!-- ============================================================== -->
-    </div>
-    <!-- ============================================================== -->
-    <!-- End Wrapper -->
-    <!-- ============================================================== -->
-    <!-- ============================================================== -->
-    <!-- All Jquery -->
-    <!-- ============================================================== -->
-    <script src="<?= media() ?>/node_modules/jquery/jquery-3.2.1.min.js"></script>
-    <!-- Bootstrap popper Core JavaScript -->
-    <script src="<?= media() ?>/node_modules/popper/popper.min.js"></script>
-    <script src="<?= media() ?>/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- slimscrollbar scrollbar JavaScript -->
-    <script src="html/dist/js/perfect-scrollbar.jquery.min.js"></script>
-    <!--Wave Effects -->
-    <script src="html/dist/js/waves.js"></script>
-    <!--Menu sidebar -->
-    <script src="html/dist/js/sidebarmenu.js"></script>
-    <!--Custom JavaScript -->
-    <script src="html/dist/js/custom.min.js"></script>
-    <!-- ============================================================== -->
-    <!-- This page plugins -->
-    <!-- ============================================================== -->
-    <!--morris JavaScript -->
-    <script src="<?= media() ?>/node_modules/raphael/raphael-min.js"></script>
-    <script src="<?= media() ?>/node_modules/morrisjs/morris.min.js"></script>
-    <script src="<?= media() ?>/node_modules/jquery-sparkline/jquery.sparkline.min.js"></script>
-    <!--c3 JavaScript -->
-    <script src="<?= media() ?>/node_modules/d3/d3.min.js"></script>
-    <script src="<?= media() ?>/node_modules/c3-master/c3.min.js"></script>
-    <!-- Chart JS -->
-    <script src="html/dist/js/dashboard1.js"></script>
-</body>
-
-</html>
+        
