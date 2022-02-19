@@ -15,14 +15,14 @@
     <link rel="stylesheet" type="text/css" href="<?= media() ?>/vendor/bootstrap-4.4.1-dist/css/bootstrap.min.css">
     <!--===============================[  Popup-Box-CSS   ]================================================-->
     <link rel="stylesheet" href="<?= media() ?>/template/my-css-js/css/popuo-box.css" type="text/css" media="all" />
-    <!--===================================================================================================-->
-    <!--==================================== RECIENTES ==========================================-->
+    <!--===================================================================================================-->    
     <link rel="stylesheet" type="text/css" href="<?= media() ?>/vendor/fontawesome/css/fontawesome.min.css">
     <!--===================================================================================================-->
     <link rel="stylesheet" href="<?= media() ?>/vendor/sweetalert/css/sweetalert2.min.css">
     <!--===================================================================================================-->
     <link rel="shortcut icon" href="<?= media() ?>/images/favicon/logo.png" type="image/x-icon">
     <!--===================================================================================================-->
+    <!--==================================== RECIENTES ====================================================-->
     <!-- Select2 CSS -->
     <link href="<?= media() ?>/vendor/select2/css/select2.min.css?v=<?= rand(); ?>" rel="stylesheet">
     <!-- Select2 Bootstrap Theme -->
