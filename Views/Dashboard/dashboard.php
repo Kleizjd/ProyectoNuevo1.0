@@ -1,5 +1,6 @@
 <!-- Barra lateral izquierda, derecha, y cabecera -->
 <?php headerAdmin($data); ?>
+
 <!-- ============================================================== -->
 <!-- Left Sidebar - style you can find in sidebar.scss  -->
 <!-- ============================================================== -->
@@ -23,7 +24,7 @@
                 <li> <a class="waves-effect waves-dark" href="pages-blank.html" aria-expanded="false"><i class="fa fa-bookmark-o"></i><span class="hide-menu"></span>Blank</a></li>
                 <li> <a class="waves-effect waves-dark" href="pages-error-404.html" aria-expanded="false"><i class="fa fa-question-circle"></i><span class="hide-menu"></span>404</a></li>
                 <div class="text-center m-t-30">
-                    <a href="https://wrappixel.com/templates/elegant-admin/" class="btn waves-effect waves-light btn-success hidden-md-down"> Upgrade to Pro</a>
+                    <a href="" class="btn waves-effect waves-light btn-success hidden-md-down"> Upgrade to Pro</a>
                 </div>
             </ul>
         </nav>
@@ -55,7 +56,7 @@
                         <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
                         <li class="breadcrumb-item active">Dashboard</li>
                     </ol>
-                    <a class="btn btn-success d-none d-lg-block m-l-15" href="https://wrappixel.com/templates/elegant-admin/"> Upgrade To Pro</a>
+                    <a class="btn btn-success d-none d-lg-block m-l-15" href=""> Upgrade To Pro</a>
                 </div>
             </div>
         </div>
