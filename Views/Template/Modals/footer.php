@@ -57,6 +57,7 @@
 
 		<div class="copyright">
 			<!-- <p>2017 Empresa. All Rights Reserved | Design by brothers Grijalba </a></p> -->
+			<p>&copy;Copyright <?= date("Y"); ?>. All Rights Reserved | Design by Best -José Daniel Grijalba</p>
 		</div>
 
 	</div>
