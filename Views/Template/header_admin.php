@@ -36,26 +36,26 @@
     <!-- Datatables CSS -->
     <link href="<?= media() ?>/vendor/datatables/DataTables-1.10.18/css/dataTables.bootstrap4.css" rel="stylesheet">
     <!-- Sweet alert 2 CSS -->
-    <link href="<?= media() ?>/vendor/sweetalert/css/sweetalert2.min.css?v=<?= rand(); ?>" rel="stylesheet">
+    <link href="<?= media() ?>/vendor/sweetalert/css/sweetalert2.min.css" rel="stylesheet">
     <!-- Datepicker Jquery-UI CSS -->
     <!--------------------------------CALENDAR [DATE-TIME-PICKER]-------------------------------->
     <link href="<?= media() ?>/endor/DateTimePicker/css/materialDateTimePicker.css" rel="stylesheet" />
     <link href='<?= media() ?>/endor/DateTimePicker/css/addfonts.css' rel='stylesheet' type='text/css'>
     <!------------------------------------------------------------------------------------------->
     <!-- Select2 CSS -->
-    <link href="<?= media() ?>//vendor/select2/css/select2.min.css?v=<?= rand(); ?>" rel="stylesheet">
+    <link href="<?= media() ?>/vendor/select2/css/select2.min.css" rel="stylesheet">
     <!-- Select2 Bootstrap Theme -->
-    <link rel="stylesheet" href="<?= media() ?>//vendor/select2/css/select2-bootstrap.min.css?v=<?= rand(); ?>">
+    <link rel="stylesheet" href="<?= media() ?>/vendor/select2/css/select2-bootstrap.min.css">
     <!-- Alertify CSS 1.12.0 -->
-    <link rel="stylesheet" href="<?= media() ?>//vendor/alertify/css/alertify.min.css?v=<?= rand(); ?>">
+    <link rel="stylesheet" href="<?= media() ?>/vendor/alertify/css/alertify.min.css">
     <!-- Default theme -->
-    <link rel="stylesheet" href="<?= media() ?>//vendor/alertify/css/themes/default.min.css?v=<?= rand(); ?>">
-    <link rel="stylesheet" href="<?= media() ?>/template/dist/css/style.min.css?v=<?= rand(); ?>">
+    <link rel="stylesheet" href="<?= media() ?>/vendor/alertify/css/themes/default.min.css">
+    <link rel="stylesheet" href="<?= media() ?>/template/dist/css/style.min.css">
     <link rel="stylesheet" href="<?= media() ?>/template/my-css-js/css/my-styles.css">
-    <link href="<?= media() ?>//vendor/c3-master/c3.min.css" rel="stylesheet">
-    <link href="<?= media() ?>//vendor/morrisjs/morris.css" rel="stylesheet">
+    <link href="<?= media() ?>/vendor/c3-master/c3.min.css" rel="stylesheet">
+    <link href="<?= media() ?>/vendor/morrisjs/morris.css" rel="stylesheet">
     <!--Toaster Popup message CSS -->
-    <link href="<?= media() ?>//vendor/toast-master/css/jquery.toast.css" rel="stylesheet">
+    <link href="<?= media() ?>/vendor/toast-master/css/jquery.toast.css" rel="stylesheet">
 
 </head>
 
