@@ -35,6 +35,10 @@
 <script src="<?= media() ?>/node_modules/c3-master/c3.min.js"></script>
 <!-- Chart JS -->
 <script src="<?= media() ?>/template/dist/js/dashboard1.js"></script>
+<!--===================================================================================================-->
+<!--==================================== RECIENTES ==========================================-->
+<?php //include_once "scripts.php"; ?>
+
 </body>
 
 </html>

@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <!--===============================[ JQuery ]================================================-->
     <script src="<?= media() ?>/vendor/jquery/jquery.slim.min.js"></script>
     <!--================================[ STYLES ]========================================================-->
@@ -15,12 +16,27 @@
     <!--===============================[  Popup-Box-CSS   ]================================================-->
     <link rel="stylesheet" href="<?= media() ?>/template/my-css-js/css/popuo-box.css" type="text/css" media="all" />
     <!--===================================================================================================-->
-    <link rel="stylesheet" type="text/css" href="<?= media() ?>/vendor/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--==================================== RECIENTES ==========================================-->
+    <link rel="stylesheet" type="text/css" href="<?= media() ?>/vendor/fontawesome/css/fontawesome.min.css">
     <!--===================================================================================================-->
     <link rel="stylesheet" href="<?= media() ?>/vendor/sweetalert/css/sweetalert2.min.css">
     <!--===================================================================================================-->
     <link rel="shortcut icon" href="<?= media() ?>/images/favicon/logo.png" type="image/x-icon">
     <!--===================================================================================================-->
+    <!-- Select2 CSS -->
+    <link href="<?= media() ?>/vendor/select2/css/select2.min.css?v=<?= rand(); ?>" rel="stylesheet">
+    <!-- Select2 Bootstrap Theme -->
+    <link rel="stylesheet" href="<?= media() ?>/vendor/select2/css/select2-bootstrap.min.css?v=<?= rand(); ?>">
+    <!-- Alertify CSS 1.12.0 -->
+    <link rel="stylesheet" href="<?= media() ?>/vendor/alertify/css/alertify.min.css?v=<?= rand(); ?>">
+    <!-- Default theme -->
+    <link rel="stylesheet" href="<?= media() ?>/vendor/alertify/css/themes/default.min.css?v=<?= rand(); ?>">
+    <link rel="stylesheet" href="<?= media() ?>/template/dist/css/style.min.css?v=<?= rand(); ?>">
+    <link rel="stylesheet" href="<?= media() ?>/template/my-css-js/css/my-styles.css">
+    <link href="<?= media() ?>/vendor/c3-master/c3.min.css" rel="stylesheet">
+    <link href="<?= media() ?>/vendor/morrisjs/morris.css" rel="stylesheet">
+    <!--Toaster Popup message CSS -->
+    <link href="<?= media() ?>/vendor/toast-master/css/jquery.toast.css" rel="stylesheet">
 
 </head>
 <!-- Header -->
@@ -47,4 +63,3 @@
     </nav>
     <!-- //Navbar -->
 </div>
-
