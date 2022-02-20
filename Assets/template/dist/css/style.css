@@ -26,6 +26,24 @@ File: scss
 @import url(../../../assets/icons/themify-icons/themify-icons.css);
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700");
 
+.app-sidebar__user-avatar {
+  width: 48px;
+  background: gray;
+  padding: 6px;
+}
+.app-sidebar__toggle{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 15pt;
+}
+.app-sidebar__toggle::before{
+	display: none;
+}
 .skin-default-dark {
   /*Theme Colors*/
 }

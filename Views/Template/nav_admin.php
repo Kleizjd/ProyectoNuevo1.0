@@ -20,16 +20,29 @@
         <nav class="sidebar-nav">
             <ul id="sidebarnav">
                 <!-- <li> <a class="waves-effect waves-dark" href="<?= base_url(); ?>/dashboard" aria-expanded="false"><i class="fa fa-tachometer"></i><span class="hide-menu">Dashboard</span></a></li> -->
-                <li> <a class="waves-effect waves-dark" href="index.html" aria-expanded="false"><i class="app-menu__icon fa fas fa-globe"></i><span class="hide-menu">Ver sitio Web</span></a></li>
-                <li> <a class="waves-effect waves-dark" href="pages-profile.html" aria-expanded="false"><i class="ti-user"></i><span class="hide-menu">Profile</span></a></li>
-                <li> <a class="waves-effect waves-dark" href="table-basic.html" aria-expanded="false"><i class="app-menu__icon fa fa-users" aria-hidden="true"></i></i><span class="hide-menu"></span>Usuarios</a></li>
-                <li> <a class="waves-effect waves-dark" href="table-basic.html" aria-expanded="false"><i class="app-menu__icon fa fa-archive"></i><span class="hide-menu"></span>Tienda</a></li>
-                <li> <a class="waves-effect waves-dark" href="table-basic.html" aria-expanded="false"><i class="app-menu__icon fa fa-shopping-cart"></i><span class="hide-menu"></span>Pedido</a></li>
-                <li> <a class="waves-effect waves-dark" href="icon-fontawesome.html" aria-expanded="false"><i class="app-menu__icon fas fa-user-tie"></i><span class="hide-menu"></span>Subscritores</a></li>
-                <li> <a class="waves-effect waves-dark" href="map-google.html" aria-expanded="false"><i class="app-menu__icon fas fa-envelope"></i><span class="hide-menu"></span>Mensajes</a></li>
-                <li> <a class="waves-effect waves-dark" href="pages-blank.html" aria-expanded="false"><i class="app-menu__icon fas fa-file-alt"></i><span class="hide-menu"></span>Paginas</a></li>
-                <li> <a class="waves-effect waves-light" href="pages-blank.html" aria-expanded="false"><i class="fa fa-power-off text-success"></i>
-                        <span class="hide-menu"></span>Salir</a></li>
+                <li> <a class="waves-effect waves-dark" href="index.html" aria-expanded="false" href="<?= base_url(); ?>/sitioWeb" href="<?= base_url(); ?>/perfil"><i class="app-menu__icon fa fas fa-globe"></i><span class="hide-menu">Ver sitio Web</span></a></li>
+                <li> <a class="waves-effect waves-dark" href="pages-profile.html" aria-expanded="false" href="<?= base_url(); ?>/perfil"><i class="ti-user"></i><span class="hide-menu">Perfil</span></a></li>
+
+                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="app-menu__icon fa fa-users"></i><span class="hide-menu">Usuarios</span></a>
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="javascript:void(0)">Usuarios <i class="far fa-circle text-success"></i></a></li>
+                        <li><a href="<?= base_url(); ?>/roles">Roles<i class="far fa-circle text-success"></i></a></li>
+                        <!-- <li><a href="app-compose.html">Compose Mail <i class="icon-note"></i></a></li> -->
+                    </ul>
+                </li>
+                <li> <a class="has-arrow waves-effect waves-dark" aria-expanded="false"><i class="app-menu__icon fa fa-archive"></i><span class="hide-menu">Tienda</span></a>
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="<?= base_url(); ?>/tienda">Productos<i class="far fa-circle text-success"></i></a></li>
+                        <li><a href="<?= base_url(); ?>/tienda">Categorias<i class="far fa-circle text-success"></i></a></li>
+                        <!-- <li><a href="app-compose.html">Compose Mail <i class="icon-note"></i></a></li> -->
+                    </ul>
+                </li>
+                <li> <a class="waves-effect waves-dark" href="table-basic.html" aria-expanded="false" href="<?= base_url(); ?>/pedidos"><i class="app-menu__icon fa fa-shopping-cart"></i><span class="hide-menu">Pedido</span></a></li>
+                <li> <a class="waves-effect waves-dark" href="icon-fontawesome.html" aria-expanded="false" href="<?= base_url(); ?>/subscritores"><i class="app-menu__icon fas fa-user-tie"></i><span class="hide-menu">Subscritores</span></a></li>
+                <li> <a class="waves-effect waves-dark" href="map-google.html" aria-expanded="false" href="<?= base_url(); ?>/mensajes"><i class="app-menu__icon fas fa-envelope"></i><span class="hide-menu">Mensajes</span></a></li>
+                <li> <a class="waves-effect waves-dark" href="pages-blank.html" aria-expanded="false" href="<?= base_url(); ?>/paginas"><i class="app-menu__icon fas fa-file-alt"></i><span class="hide-menu">Paginas</span></a></li>
+                <li> <a class="waves-effect waves-light" href="pages-blank.html" aria-expanded="false" href="<?= base_url(); ?>/salir"><i class="fa fa-power-off text-success"></i>
+                        <span class="hide-menu">Salir</span></a></li>
 
 
 
