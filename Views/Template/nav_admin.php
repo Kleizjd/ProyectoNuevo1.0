@@ -8,12 +8,12 @@
             <a class="nav-lock waves-effect waves-dark ml-auto hidden-md-down" href="javascript:void(0)"><i class="mdi mdi-toggle-switch"></i></a>
             <a class="nav-toggler waves-effect waves-dark ml-auto hidden-sm-up" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
     </div>
-    <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="<?= media(); ?>/images/avatar.png" alt="User Image">
+    <!-- <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="<?= media(); ?>/images/avatar.png" alt="User Image">
         <div>
             <p class="app-sidebar__user-name">Jose</p>
             <p class="app-sidebar__user-designation">Administrador</p>
         </div>
-    </div>
+    </div> -->
     <!-- Sidebar scroll-->
     <div class="scroll-sidebar">
         <!-- Sidebar navigation-->
@@ -25,7 +25,7 @@
 
                 <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="app-menu__icon fa fa-users"></i><span class="hide-menu">Usuarios</span></a>
                     <ul aria-expanded="false" class="collapse">
-                        <li><a href="javascript:void(0)">Usuarios <i class="far fa-circle text-success"></i></a></li>
+                        <li><a href="<?= base_url(); ?>/usuarios">Usuarios <i class="far fa-circle text-success"></i></a></li>
                         <li><a href="<?= base_url(); ?>/roles">Roles<i class="far fa-circle text-success"></i></a></li>
                         <!-- <li><a href="app-compose.html">Compose Mail <i class="icon-note"></i></a></li> -->
                     </ul>

@@ -5,6 +5,7 @@
     <!-- <p>2017 Empresa. All Rights Reserved | Design by brothers Grijalba </a></p> -->
     &copy;Copyright <?= date("Y"); ?> Best -José Daniel Grijalba
 </div>
+
 <!-- ============================================================== -->
 <!-- End footer -->
 <!-- ============================================================== -->
@@ -15,6 +16,10 @@
 <!-- ============================================================== -->
 <!-- All Jquery -->
 <!-- ============================================================== -->
+<script>
+    const base_url = "<?= base_url(); ?>";
+    const smony = "<?= SMONEY; ?>";
+</script>
 <script src="<?= media() ?>/node_modules/jquery/jquery-3.2.1.min.js"></script>
 <!-- Bootstrap popper Core JavaScript -->
 <script src="<?= media() ?>/node_modules/popper/popper.min.js"></script>
@@ -27,6 +32,9 @@
 <script src="<?= media() ?>/template/dist/js/sidebarmenu.js"></script>
 <!--Custom JavaScript -->
 <script src="<?= media() ?>/template/dist/js/custom.min.js"></script>
+ <!-- Page specific javascripts-->
+ <script type="text/javascript" src="<?= media(); ?>/js/plugins/sweetalert.min.js"></script>
+    <script type="text/javascript" src="<?= media(); ?>/js/tinymce/tinymce.min.js"></script>
 <!-- ============================================================== -->
 <!-- This page plugins -->
 <!-- ============================================================== -->
@@ -41,6 +49,12 @@
 <script src="<?= media() ?>/node_modules/toast-master/js/jquery.toast.js"></script>
 <!-- Chart JS -->
 <script src="<?= media() ?>/template/dist/js/dashboard1.js"></script>
+<!-- Data table plugin-->
+<script type="text/javascript" src="<?= media(); ?>/js/plugins/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="<?= media(); ?>/js/plugins/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="<?= media(); ?>/js/plugins/bootstrap-select.min.js"></script>
+<script type="text/javascript" src="<?= media(); ?>/js/functions_admin.js"></script>
+<script type="text/javascript" src="<?= media(); ?>/js/functions_roles.js"></script>
 
 </body>
 

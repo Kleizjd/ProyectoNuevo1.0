@@ -1,6 +1,5 @@
-<!-- Barra lateral izquierda, derecha, y cabecera -->
-<?php headerAdmin($data); 
-  getModal('modalRoles',$data);
+<?php headerAdmin($data);
+//   getModal('modalRoles',$data);
 ?>
 <!-- ============================================================== -->
 <!-- Page wrapper  -->
@@ -23,7 +22,7 @@
                         <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
                         <li class="breadcrumb-item active"><?= $data['page_title'] ?></li>
                     </ol>
-                    <button type="button" class="btn btn-success d-none d-lg-block m-l-15" onclick="openModal();" > <i class="fas fa-plus-circle"></i>Nuevo</button>
+                    <button type="button" class="btn btn-success d-none d-lg-block m-l-15" onclick="openModal();"> <i class="fas fa-plus-circle"></i>Nuevo</button>
                 </div>
             </div>
         </div>
@@ -32,29 +31,43 @@
         <!-- ============================================================== -->
         <div class="row">
             <div class="col-md-12">
-              <div class="tile">
-                <div class="tile-body">
-                  <div class="table-responsive">
-                    <table class="table table-hover table-bordered" id="tableRoles">
-                      <thead>
-                        <tr>
-                          <th>ID</th>
-                          <th>Nombre</th>
-                          <th>Descripción</th>
-                          <th>Status</th>
-                          <th>Acciones</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                      </tbody>
-                    </table>
-                  </div>
+                <div class="tile">
+                    <div class="tile-body">
+                        <div class="table-responsive">
+                            <table class="table table-hover table-bordered" id="tableUsuarios">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Nombres</th>
+                                        <th>Apellidos</th>
+                                        <th>Email</th>
+                                        <th>Telefono</th>
+                                        <th>Rol</th>
+                                        <th>Status</th>
+                                        <th>Acciones</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+
+                                        <td>1</td>
+                                        <td>Jose</td>
+                                        <td>Osorio</td>
+                                        <td>jose@gmail.com</td>
+                                        <td>31247078</td>
+                                        <td>Admin</td>
+                                        <td>Activo</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
         </div>
- 
-      
+
+
     </div>
     <!-- ============================================================== -->
     <!-- End Container fluid  -->
