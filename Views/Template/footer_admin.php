@@ -1,5 +1,5 @@
 <!-- <footer class="footer">
-    © 2020 Elegent Admin by <a href="https://www.wrappixel.com/">wrappixel.com</a>
+    © 2020 Elegent Admin by <a href=""> .com</a>
 </footer> -->
 <div class="footer">
     <!-- <p>2017 Empresa. All Rights Reserved | Design by brothers Grijalba </a></p> -->
