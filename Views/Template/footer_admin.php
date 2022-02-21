@@ -5,7 +5,10 @@
     <!-- <p>2017 Empresa. All Rights Reserved | Design by brothers Grijalba </a></p> -->
     &copy;Copyright <?= date("Y"); ?> Best -José Daniel Grijalba
 </div>
-
+<script>
+    const base_url = "<?= base_url(); ?>";
+    const smony = "<?= SMONEY; ?>";
+</script>
 <!-- ============================================================== -->
 <!-- End footer -->
 <!-- ============================================================== -->
