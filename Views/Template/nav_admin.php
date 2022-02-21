@@ -30,19 +30,7 @@
                         <li><a href="<?= base_url(); ?>/roles">Roles<i class="far fa-circle text-success"></i></a></li>
                         <!-- <li><a href="app-compose.html">Compose Mail <i class="icon-note"></i></a></li> -->
                     </ul>
-                </li>
-                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="ti-layout-grid2"></i><span class="hide-menu">Apps</span></a>
-                    <ul aria-expanded="false" class="collapse">
-                        <li><a href="<?= base_url(); ?>/roles">Roles<i class="far fa-circle text-success"></i></a></li>
-
-                        <li><a href="app-calendar.html">Calendar <i class="ti-calendar"></i></a></li>
-                        <li><a href="app-chat.html">Chat app <i class="ti-comment"></i></a></li>
-                        <li><a href="app-ticket.html">Support Ticket <i class="ti-support"></i></a></li>
-                        <li><a href="app-contact.html">Contact / Employee <i class="ti-user"></i></a></li>
-                        <li><a href="app-contact2.html">Contact Grid <i class=" ti-list"></i></a></li>
-                        <li><a href="app-contact-detail.html">Contact Detail <i class="ti-pencil-alt"></i></a></li>
-                    </ul>
-                </li>
+                </li>   
                 <li> <a class="app-menu__item has-arrow waves-effect waves-dark" aria-expanded="false"><i class="app-menu__icon fa fa-archive"></i><span class="hide-menu">Tienda</span></a>
                     <ul aria-expanded="false" class="collapse">
                         <li><a href="<?= base_url(); ?>/tienda">Productos<i class="far fa-circle text-success"></i></a></li>

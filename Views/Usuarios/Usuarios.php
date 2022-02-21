@@ -48,17 +48,6 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-
-                                        <td>1</td>
-                                        <td>Jose</td>
-                                        <td>Osorio</td>
-                                        <td>jose@gmail.com</td>
-                                        <td>31247078</td>
-                                        <td>Admin</td>
-                                        <td>Activo</td>
-                                        <td></td>
-                                    </tr>
                                 </tbody>
                             </table>
                         </div>
