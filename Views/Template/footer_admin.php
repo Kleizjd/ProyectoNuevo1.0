@@ -47,8 +47,6 @@
 <script type="text/javascript" src="<?= media(); ?>/js/plugins/dataTables.bootstrap.min.js"></script>
 <script type="text/javascript" src="<?= media(); ?>/js/plugins/bootstrap-select.min.js"></script>
 <script src="<?= media(); ?>/js/<?= $data['page_functions_js']; ?>"></script>
-
-
 </body>
 
 </html>
