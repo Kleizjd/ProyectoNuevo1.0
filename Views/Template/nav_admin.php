@@ -20,8 +20,8 @@
         <nav class="sidebar-nav">
             <ul id="sidebarnav">
                 <!-- <li> <a class="waves-effect waves-dark" href="<?= base_url(); ?>/dashboard" aria-expanded="false"><i class="fa fa-tachometer"></i><span class="hide-menu">Dashboard</span></a></li> -->
-                <li> <a class="waves-effect waves-dark" href="index.html" aria-expanded="false" href="<?= base_url(); ?>/sitioWeb" href="<?= base_url(); ?>/perfil"><i class="app-menu__icon fa fas fa-globe"></i><span class="hide-menu">Ver sitio Web</span></a></li>
-                <li> <a class="waves-effect waves-dark" href="pages-profile.html" aria-expanded="false" href="<?= base_url(); ?>/perfil"><i class="ti-user"></i><span class="hide-menu">Perfil</span></a></li>
+                <li> <a class="waves-effect waves-dark" aria-expanded="false" href="<?= base_url(); ?>/sitioWeb" href="<?= base_url(); ?>/perfil"><i class="app-menu__icon fa fas fa-globe"></i><span class="hide-menu">Ver sitio Web</span></a></li>
+                <li> <a class="waves-effect waves-dark" aria-expanded="false" href="<?= base_url(); ?>/perfil"><i class="ti-user"></i><span class="hide-menu">Perfil</span></a></li>
 
                 </li>
                 <li> <a class="app-menu__item has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="app-menu__icon fa fa-users"></i><span class="hide-menu">Usuarios</span></a>
@@ -38,21 +38,12 @@
                         <!-- <li><a href="app-compose.html">Compose Mail <i class="icon-note"></i></a></li> -->
                     </ul>
                 </li>
-                <li> <a class="app-menu__item waves-effect waves-dark" href="table-basic.html" aria-expanded="false" href="<?= base_url(); ?>/pedidos"><i class="app-menu__icon fa fa-shopping-cart"></i><span class="hide-menu">Pedido</span></a></li>
+                <li> <a class="app-menu__item waves-effect waves-dark" aria-expanded="false" href="<?= base_url(); ?>/pedidos"><i class="app-menu__icon fa fa-shopping-cart"></i><span class="hide-menu">Pedido</span></a></li>
                 <li> <a class="app-menu__item waves-effect waves-dark" href="icon-fontawesome.html" aria-expanded="false" href="<?= base_url(); ?>/subscritores"><i class="app-menu__icon fas fa-user-tie"></i><span class="hide-menu">Subscritores</span></a></li>
-                <li> <a class="app-menu__item waves-effect waves-dark" href="map-google.html" aria-expanded="false" href="<?= base_url(); ?>/mensajes"><i class="app-menu__icon fas fa-envelope"></i><span class="hide-menu">Mensajes</span></a></li>
-                <li> <a class="app-menu__item waves-effect waves-dark" href="pages-blank.html" aria-expanded="false" href="<?= base_url(); ?>/paginas"><i class="app-menu__icon fas fa-file-alt"></i><span class="hide-menu">Paginas</span></a></li>
-                <li> <a class="app-menu__item waves-effect waves-light" href="pages-blank.html" aria-expanded="false" href="<?= base_url(); ?>/salir"><i class="fa fa-power-off text-success"></i>
-                        <span class="hide-menu">Salir</span></a></li>
+                <li> <a class="app-menu__item waves-effect waves-dark" aria-expanded="false" href="<?= base_url(); ?>/mensajes"><i class="app-menu__icon fas fa-envelope"></i><span class="hide-menu">Mensajes</span></a></li>
+                <li> <a class="app-menu__item waves-effect waves-dark" aria-expanded="false" href="<?= base_url(); ?>/paginas"><i class="app-menu__icon fas fa-file-alt"></i><span class="hide-menu">Paginas</span></a></li>
+                <li> <a class="app-menu__item waves-effect waves-light" aria-expanded="false" href="<?= base_url(); ?>/salir"><i class="fa fa-power-off text-success"></i><span class="hide-menu">Salir</span></a></li>
 
-
-
-                <!-- <div class="text-center m-t-30"> -->
-                <!-- <li>
-                    <a class="btn waves-effect waves-light btn-success hidden-md-down" href="" aria-expanded="false"><i class="app-menu__icon fa fa-sign-out"></i><span class="hide-menu"></span>Salir</a>
-
-                </li> -->
-                <!-- </div> -->
             </ul>
         </nav>
         <!-- End Sidebar navigation -->
@@ -62,3 +53,11 @@
 <!-- ============================================================== -->
 <!-- End Left Sidebar - style you can find in sidebar.scss  -->
 <!-- ============================================================== -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        $('.collapse').click(function() {
+            $('.navbar-toggle:visible').click();
+        });
+    }, false);
+ 
+</script>

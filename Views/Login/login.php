@@ -16,7 +16,7 @@
     <!-- Main CSS-->
     <!-- <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/main.css"> -->
     <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/style.css">
-    <title>Tienda Virtual</title>
+    <title><?php $data['page_tag']; ?></title>
 
 </head>
 
@@ -29,16 +29,18 @@
                 <div class="card-header">
                     <div class="justify-content-center row">
                         <div class="col-10">
-                            <h1> Ingreso</h1>
+                            <!-- <h1> Ingreso</h1> -->
+                            <title><?php $data['page_title']; ?></title>
+
                         </div>
                     </div>
                     <div class="card-body">
-                        <form class="form-horizontal form-material" id="form_session" action="" method="POST" autocomplete="off">
+                        <form class="form-horizontal form-material" id="formLogin" name="formLogin" action="" method="POST" autocomplete="off">
                             <div class="form-group ">
-                                <input type="text" class="form-control" placeholder="Email" name="user" id="txtEmail" autofocus required>
+                                <input type="text" class="form-control" placeholder="Email" id="txtEmail" name="txtEmail" autofocus required>
                             </div>
                             <div class="input-group form-group">
-                                <input type="password" class="form-control" placeholder="Password" name="txtPassword" id="txtPassword" required>
+                                <input type="password" class="form-control" placeholder="Password" id="txtPassword" name="txtPassword" required>
 
                                 <button type="button" class="btn btn-outline-primary showPassword">
                                     <i class="fas fa-eye"></i>
@@ -53,9 +55,10 @@
                                     </div>
                                 </div>
                             </div>
+                            <div id="alertLogin" class="text-center"></div>
                             <div class="form-group text-center">
                                 <div class="col-xs-12 p-b-20">
-                                    <button class="btn btn-block btn-lg btn-info btn-rounded" type="submit" id="cargar">Ingresar</button>
+                                    <button class="btn btn-block btn-lg btn-info btn-rounded" type="submit">Ingresar</button>
                                 </div>
                             </div>
                             <div class="form-group m-b-0">
@@ -78,11 +81,11 @@
                             </div>
                             <div class="form-group text-center m-t-20">
                                 <div class="col-xs-12">
-                                    <button class="btn btn-primary btn-lg btn-block text-uppercase waves-effect waves-light" type="submit" id="reset_password">Reset</button>
+                                    <button class="btn btn-primary btn-lg btn-block text-uppercase waves-effect waves-light" type="submit">Reiniciar</button>
                                 </div>
                             </div>
                             <a class="d-block small mt-3" href="javascript:void(0)" id="to-return" class="text-info">
-                                <p class="text-center"><b>Regresar</b></p>
+                                <p class="text-center"><b>Iniciar sesion </b></p>
                             </a>
 
                         </form>
@@ -90,16 +93,17 @@
                 </div>
             </div>
     </section>
-
+    <script src="<?= media() ?>/vendor/sweetalert/js/sweetalert2.min.js"></script>
+    <script src="<?= media() ?>/vendor/popper/popper.min.js"></script>
+    <script src="<?= media(); ?>/js/<?= $data['page_functions_js']; ?>"></script>
 </body>
-<script src="<?= media() ?>/vendor/sweetalert/js/sweetalert2.min.js"></script>
-<script src="<?= media() ?>/vendor/popper/popper.min.js"></script>
 
 </html>
 <script>
-    $(function() {
-        $(".preloader").fadeOut();
-    });
+    const base_url = "<?= base_url(); ?>";
+    const smony = "<?= SMONEY; ?>";
+</script>
+<script>
     // ============================================================== 
     // Login and Recover Password 
     // ============================================================== 

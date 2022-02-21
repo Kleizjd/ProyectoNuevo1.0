@@ -1,5 +1,5 @@
 <?php headerAdmin($data);
-  getModal('modalUsuarios',$data);
+getModal('modalUsuarios', $data);
 ?>
 <!-- ============================================================== -->
 <!-- Page wrapper  -->
