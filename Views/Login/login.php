@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Author" content="José Daniel Grijalba">
-    
-    <title><?php $data['page_tag']; ?></title>
+
     <script src="<?= media() ?>/vendor/jquery/jquery.slim.min.js"></script>
     <link rel="stylesheet" href="<?= media() ?>/vendor/bootstrap-4.4.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= media() ?>/vendor/fontawesome/css/all.min.css">
@@ -14,7 +13,10 @@
     <link href="<?= media() ?>/template/my-css-js/css/login-register-lock.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="<?= media() ?>/template/my-css-js/css/style.min.css" rel="stylesheet">
-
+    <!-- Main CSS-->
+    <!-- <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/main.css"> -->
+    <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/style.css">
+    <title>Tienda Virtual</title>
 
 </head>
 
@@ -33,10 +35,10 @@
                     <div class="card-body">
                         <form class="form-horizontal form-material" id="form_session" action="" method="POST" autocomplete="off">
                             <div class="form-group ">
-                                <input type="text" class="form-control" placeholder="Login" name="user" id="user" autofocus required>
+                                <input type="text" class="form-control" placeholder="Email" name="user" id="txtEmail" autofocus required>
                             </div>
                             <div class="input-group form-group">
-                                <input type="password" class="form-control" placeholder="Password" name="password" id="password" required>
+                                <input type="password" class="form-control" placeholder="Password" name="txtPassword" id="txtPassword" required>
 
                                 <button type="button" class="btn btn-outline-primary showPassword">
                                     <i class="fas fa-eye"></i>
@@ -71,7 +73,7 @@
                             </div>
                             <div class="form-group ">
                                 <div class="col-xs-12">
-                                    <input class="form-control" type="text" required="" placeholder="Email" id="email_user">
+                                    <input class="form-control" type="text" required="" placeholder="Email" id="txtEmailReset">
                                 </div>
                             </div>
                             <div class="form-group text-center m-t-20">
