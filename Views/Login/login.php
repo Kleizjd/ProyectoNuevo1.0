@@ -66,7 +66,7 @@
                                 </div>
                             </div>
                         </form>
-                        <form class="form-horizontal" id="recoverform" action="" method="POST" autocomplete="off">
+                        <form class="form-horizontal" id="formResetPass" name="formResetPass" action="" method="POST" autocomplete="off">
                             <div class="form-group ">
                                 <div class="col-xs-12">
                                     <h3>Recuperar Contraseña</h3>
