@@ -14,8 +14,7 @@
     <!-- Custom CSS -->
     <link href="<?= media() ?>/template/my-css-js/css/style.min.css" rel="stylesheet">
     <!-- Main CSS-->
-    <!-- <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/main.css"> -->
-    <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/style.css">
+    <link rel="stylesheet" type="text/css" href="<?= media(); ?>/template/dist/css/style.css">
     <title><?php $data['page_tag']; ?></title>
 
 </head>

@@ -19,7 +19,7 @@
     <!--c3 plugins CSS -->
     <link href="<?= media() ?>/node_modules/c3-master/c3.min.css" rel="stylesheet">
      <!-- Main CSS-->
-     <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/main.css">
+     <link rel="stylesheet" type="text/css" href="<?= media(); ?>/template/dist/css/main.css">
     <!-- Custom CSS -->
     <link href="<?= media() ?>/template/dist/css/style.css" rel="stylesheet">
     <!-- Dashboard 1 Page CSS -->
@@ -155,11 +155,11 @@
                             <div class="dropdown-menu dropdown-menu-right user-dd animated flipInY">
                                 <span class="with-arrow"><span class="bg-primary"></span></span>
                                 <div class="d-flex no-block align-items-center p-15 bg-primary text-white m-b-10">
-                                    <div class="" id="img_profile_herence_carga"><img src="<?= media() ?>/images/svg/upload-user.svg" alt="user" id="img_profile_herence" class="img-circle" width="60"></div>
+                                    <div class="" id="img_profile_herence_carga"><img src="<?= media() ?>/images/avatar.png" alt="user" id="img_profile_herence" class="img-circle" width="60"></div>
                                     <div class="m-l-10">
-                                        <h4 class="m-b-0" id="complete_name_window"></h4>
+                                        <p class="app-sidebar__user-name"><?= $_SESSION['userData']['nombres']; ?></p>
                                         <p class=" m-b-0">
-                                            <a class="eml-protected" href="#"></a>
+                                        <p class="app-sidebar__user-designation"><?= $_SESSION['userData']['nombrerol']; ?></p>
                                     </div>
                                 </div>
                                 <div class="dropdown-divider"></div>
