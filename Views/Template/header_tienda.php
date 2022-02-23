@@ -16,7 +16,7 @@
     <!--===============================[  Popup-Box-CSS   ]================================================-->
     <link rel="stylesheet" href="<?= media() ?>/template/my-css-js/css/popuo-box.css" type="text/css" media="all" />
     <!--===================================================================================================-->    
-    <link rel="stylesheet" type="text/css" href="<?= media() ?>/vendor/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/vendor/fontawesome/css/fontawesome.min.css">
     <!--===================================================================================================-->
     <link rel="stylesheet" href="<?= media() ?>/vendor/sweetalert/css/sweetalert2.min.css">
     <!--===================================================================================================-->
