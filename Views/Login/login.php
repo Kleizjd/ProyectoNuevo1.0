@@ -101,18 +101,19 @@
 <script>
     const base_url = "<?= base_url(); ?>";
     const smony = "<?= SMONEY; ?>";
-</script>
-<script>
+    $(function() {
+        $(".preloader").fadeOut();
+    });
     // ============================================================== 
     // Login and Recover Password 
     // ============================================================== 
     $('#to-recover').on("click", function() {
-        $("#form_session").slideUp();
-        $("#recoverform").fadeIn();
+        $("#formLogin").slideUp();
+        $("#formResetPass").fadeIn();
     });
     $('#to-return').on("click", function() {
-        $("#recoverform").slideUp();
-        $("#form_session").fadeIn();
+        $("#formResetPass").slideUp();
+        $("#formLogin").fadeIn();
     });
     $(document).ready(function() {
 

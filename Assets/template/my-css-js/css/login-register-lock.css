@@ -47,7 +47,7 @@ Login register and recover password Page
     display: block;
     margin-bottom: 30px; }
 
-#recoverform {
+#formResetPass {
   display: none; }
 
 .login-sidebar {
