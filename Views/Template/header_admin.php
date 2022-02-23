@@ -19,7 +19,8 @@
     <!--c3 plugins CSS -->
     <link href="<?= media() ?>/node_modules/c3-master/c3.min.css" rel="stylesheet">
      <!-- Main CSS-->
-     <link rel="stylesheet" type="text/css" href="<?= media(); ?>/template/dist/css/main.css">
+     <!-- <link rel="stylesheet" type="text/css" href="<?= media(); ?>/template/dist/css/main.css"> -->
+     <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/main.css">
     <!-- Custom CSS -->
     <link href="<?= media() ?>/template/dist/css/style.css" rel="stylesheet">
     <!-- Dashboard 1 Page CSS -->
