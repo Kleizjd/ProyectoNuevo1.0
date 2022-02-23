@@ -68,35 +68,35 @@ document.addEventListener('DOMContentLoaded', function(){
 				request.open("POST",ajaxUrl,true);
 				request.send(formData);
 				request.onreadystatechange = function(){
-					if(request.readyState != 4) return;
-
-					if(request.status == 200){
-						var objData = JSON.parse(request.responseText);
-						if(objData.status)
-						{
-							swal({
-								title: "",
-								text: objData.msg,
-								type: "success",
-								confirmButtonText: "Aceptar",
-								closeOnConfirm: false,
-							}, function(isConfirm) {
-								if (isConfirm) {
-									window.location = base_url;
-								}
-							});
-						}else{
-							swal("Atención", objData.msg, "error");
-						}
-					}else{
-						swal("Atención","Error en el proceso", "error");
+					// if(request.readyState != 4) return;
+					console.log(request);
+					// if(request.status == 200){
+					// 	var objData = JSON.parse(request.responseText);
+					// 	if(objData.status)
+					// 	{
+					// 		swal({
+					// 			title: "",
+					// 			text: objData.msg,
+					// 			type: "success",
+					// 			confirmButtonText: "Aceptar",
+					// 			closeOnConfirm: false,
+					// 		}, function(isConfirm) {
+					// 			if (isConfirm) {
+					// 				window.location = base_url;
+					// 			}
+					// 		});
+					// 	}else{
+					// 		swal("Atención", objData.msg, "error");
+					// 	}
+					// }else{
+					// 	swal("Atención","Error en el proceso", "error");
 					}
-					divLoading.style.display = "none";
+					// divLoading.style.display = "none";
 					return false;
 				}	
 			}
 		}
-	}
+	// } 	
 
 	if(document.querySelector("#formCambiarPass")){
 		let formCambiarPass = document.querySelector("#formCambiarPass");
