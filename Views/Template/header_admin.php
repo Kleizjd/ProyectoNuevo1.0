@@ -42,8 +42,8 @@
     <link href="<?= media() ?>/vendor/sweetalert/css/sweetalert2.min.css" rel="stylesheet">
     <!-- Datepicker Jquery-UI CSS -->
     <!--------------------------------CALENDAR [DATE-TIME-PICKER]-------------------------------->
-    <link href="<?= media() ?>/vendor/DateTimePicker/css/materialDateTimePicker.css" rel="stylesheet" />
-    <link href='<?= media() ?>/vendor/DateTimePicker/css/addfonts.css' rel='stylesheet' type='text/css'>
+    <link href="<?= media() ?>/endor/DateTimePicker/css/materialDateTimePicker.css" rel="stylesheet" />
+    <link href='<?= media() ?>/endor/DateTimePicker/css/addfonts.css' rel='stylesheet' type='text/css'>
     <!------------------------------------------------------------------------------------------->
     <!-- Select2 CSS -->
     <link href="<?= media() ?>/vendor/select2/css/select2.min.css" rel="stylesheet">
@@ -54,7 +54,7 @@
     <!-- Default theme -->
     <link rel="stylesheet" href="<?= media() ?>/vendor/alertify/css/themes/default.min.css">
     <link rel="stylesheet" href="<?= media() ?>/template/dist/css/style.min.css">
-    <!-- <link rel="stylesheet" href="<?= media() ?>/template/my-css-js/css/my-styles.css"> -->
+    <link rel="stylesheet" href="<?= media() ?>/template/my-css-js/css/my-styles.css">
     <link href="<?= media() ?>/vendor/c3-master/c3.min.css" rel="stylesheet">
     <link href="<?= media() ?>/vendor/morrisjs/morris.css" rel="stylesheet">
     <!--Toaster Popup message CSS -->
