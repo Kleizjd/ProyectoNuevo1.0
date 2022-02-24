@@ -80,7 +80,7 @@
                             </div>
                             <div class="form-group text-center m-t-20">
                                 <div class="col-xs-12">
-                                    <button type="submit" class="btn btn-primary btn-lg btn-block text-uppercase waves-effect waves-light" ><i class="fa fa-unlock fa-lg fa-fw"></i> Reiniciar</button>
+                                    <button type="submit" class="btn btn-primary btn-lg btn-block text-uppercase waves-effect waves-light"><i class="fa fa-unlock fa-lg fa-fw"></i> Reiniciar</button>
                                 </div>
                             </div>
                             <a class="d-block small mt-3" href="javascript:void(0)" id="to-return" class="text-info">
@@ -92,23 +92,23 @@
                 </div>
             </div>
     </section>
-     <!-- Essential javascripts for application to work-->
-     <script src="<?= media(); ?>/js/jquery-3.3.1.min.js"></script>
+    <script>
+        const base_url = "<?= base_url(); ?>";
+    </script>
+    <!-- Essential javascripts for application to work-->
+    <script src="<?= media(); ?>/js/jquery-3.3.1.min.js"></script>
     <script src="<?= media(); ?>/js/popper.min.js"></script>
     <script src="<?= media(); ?>/js/bootstrap.min.js"></script>
     <script src="<?= media(); ?>/js/fontawesome.js"></script>
     <script src="<?= media(); ?>/js/main.js"></script>
     <!-- The javascript plugin to display page loading on top-->
     <script src="<?= media(); ?>/js/plugins/pace.min.js"></script>
-    <script src="<?= media() ?>/vendor/sweetalert/js/sweetalert2.min.js"></script>
-    <script src="<?= media() ?>/vendor/popper/popper.min.js"></script>
+    <script src="<?= media() ?>/vendor/sweetalert/js/sweetalert2.min.js" type="text/javascript"></script>
     <script src="<?= media(); ?>/js/<?= $data['page_functions_js']; ?>"></script>
 </body>
 
 </html>
 <script>
-    const base_url = "<?= base_url(); ?>";
-    const smony = "<?= SMONEY; ?>";
     $(function() {
         $(".preloader").fadeOut();
     });
@@ -124,7 +124,9 @@
         $("#formLogin").fadeIn();
     });
     $(document).ready(function() {
-
+        $("#formLogin").fadeIn();
+    });
+    $(document).ready(function() {
         $(document).on("click", ".showPassword", function() {
             let inputPassword = $(this).parent().find("input");
             if ($(inputPassword).val() != "") {
@@ -137,5 +139,6 @@
                 }
             }
         });
+
     });
 </script>
