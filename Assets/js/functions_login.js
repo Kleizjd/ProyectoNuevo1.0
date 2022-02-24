@@ -47,9 +47,9 @@ document.addEventListener('DOMContentLoaded', function(){
 		}
 	}
 
-	if(document.querySelector("#formRecetPass")){		
-		let formRecetPass = document.querySelector("#formRecetPass");
-		formRecetPass.onsubmit = function(e) {
+	if(document.querySelector("#formResetPass")){		
+		let formResetPass = document.querySelector("#formResetPass");
+		formResetPass.onsubmit = function(e) {
 			e.preventDefault();
 
 			let strEmail = document.querySelector('#txtEmailReset').value;
@@ -58,13 +58,13 @@ document.addEventListener('DOMContentLoaded', function(){
 				swal("Por favor", "Escribe tu correo electrónico.", "error");
 				return false;
 			}else{
-				divLoading.style.display = "flex";
+				// divLoading.style.display = "flex";
 				var request = (window.XMLHttpRequest) ? 
 								new XMLHttpRequest() : 
 								new ActiveXObject('Microsoft.XMLHTTP');
 								
 				var ajaxUrl = base_url+'/Login/resetPass'; 
-				var formData = new FormData(formRecetPass);
+				var formData = new FormData(formResetPass);
 				request.open("POST",ajaxUrl,true);
 				request.send(formData);
 				request.onreadystatechange = function(){
