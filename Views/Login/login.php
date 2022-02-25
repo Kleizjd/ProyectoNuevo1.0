@@ -29,7 +29,7 @@
                     <div class="justify-content-center row">
                         <div class="col-10">
                             <!-- <h1> Ingreso</h1> -->
-                            <title><?php $data['page_title']; ?></title>
+                            <h1><?= $data['page_title']; ?></h1>
 
                         </div>
                     </div>

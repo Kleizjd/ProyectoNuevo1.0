@@ -67,31 +67,38 @@
 					}else{
 						$idpersona = $arrData['idpersona'];
 						$nombreUsuario = $arrData['nombres'].' '.$arrData['apellidos'];
-
+						// echo "idpersona ".$idpersona;
+						// echo " nombreUsuario: ".$nombreUsuario;
 						$url_recovery = base_url().'/login/confirmUser/'.$strEmail.'/'.$token;
-						$requestUpdate = $this->model->setTokenUser($idpersona,$token);
+						// echo " url_recovery: ".$url_recovery;
 
+						$requestUpdate = $this->model->setTokenUser($idpersona,$token);
+						// echo " requestUpdate: ".$requestUpdate;
+						// echo " __ ";
 						$dataUsuario = array('nombreUsuario' => $nombreUsuario,
 											 'email' => $strEmail,
 											 'asunto' => 'Recuperar cuenta - '.NOMBRE_REMITENTE,
 											 'url_recovery' => $url_recovery);
+											//  dep($dataUsuario);
+
+						
 						if($requestUpdate){
 							$sendEmail = sendEmail($dataUsuario,'email_cambioPassword');
-
-							if($sendEmail){
-								$arrResponse = array('status' => true, 
-												 'msg' => 'Se ha enviado un email a tu cuenta de correo para cambiar tu contraseña.');
-							}else{
-								$arrResponse = array('status' => false, 
-												 'msg' => 'No es posible realizar el proceso, intenta más tarde.' );
-							}
-						}else{
-							$arrResponse = array('status' => false, 
-												 'msg' => 'No es posible realizar el proceso, intenta más tarde.' );
+							// var_dump($sendEmail);
+							// if($sendEmail){
+						// 		$arrResponse = array('status' => true, 
+						// 						 'msg' => 'Se ha enviado un email a tu cuenta de correo para cambiar tu contraseña.');
+						// 	}else{
+						// 		$arrResponse = array('status' => false, 
+						// 						 'msg' => 'No es posible realizar el proceso, intenta más tarde.' );
+						// 	}
+						// }else{
+						// 	$arrResponse = array('status' => false, 
+						// 						 'msg' => 'No es posible realizar el proceso, intenta más tarde.' );
 						}
 					}
 				}
-				echo json_encode($arrResponse,JSON_UNESCAPED_UNICODE);
+				// echo json_encode($arrResponse,JSON_UNESCAPED_UNICODE);
 			}
 			die();
 		}
@@ -110,7 +117,7 @@
 				}else{
 					$data['page_tag'] = "Cambiar contraseña";
 					$data['page_name'] = "cambiar_contrasenia";
-					$data['page_title'] = "Cambiar Contraseña";
+					$data['page_title'] = "Tienda Virtual";
 					$data['email'] = $strEmail;
 					$data['token'] = $strToken;
 					$data['idpersona'] = $arrResponse['idpersona'];
@@ -161,4 +168,3 @@
 		}
 
 	}
- ?>
