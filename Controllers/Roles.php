@@ -34,15 +34,16 @@
 				$btnEdit = '';
 				$btnDelete = '';
 				$arrData = $this->model->selectRoles();
+				// dep($arrData[0]);exit;
 
-				// for ($i=0; $i < count($arrData); $i++) {
+				for ($i=0; $i < count($arrData); $i++) {
 
-				// 	if($arrData[$i]['status'] == 1)
-				// 	{
-				// 		$arrData[$i]['status'] = '<span class="badge badge-success">Activo</span>';
-				// 	}else{
-				// 		$arrData[$i]['status'] = '<span class="badge badge-danger">Inactivo</span>';
-				// 	}
+					if($arrData[$i]['status'] == 1)
+					{
+						$arrData[$i]['status'] = '<span class="badge badge-success">Activo</span>';
+					}else{
+						$arrData[$i]['status'] = '<span class="badge badge-danger">Inactivo</span>';
+					}
 
 				// 	if($_SESSION['permisosMod']['u']){
 				// 		$btnView = '<button class="btn btn-secondary btn-sm btnPermisosRol" onClick="fntPermisos('.$arrData[$i]['idrol'].')" title="Permisos"><i class="fas fa-key"></i></button>';
@@ -51,7 +52,7 @@
 				// 	if($_SESSION['permisosMod']['d']){
 				// 		$btnDelete = '<button class="btn btn-danger btn-sm btnDelRol" onClick="fntDelRol('.$arrData[$i]['idrol'].')" title="Eliminar"><i class="far fa-trash-alt"></i></button>
 				// 	</div>';
-				// 	}
+					}
 		// 			$arrData[$i]['options'] = '<div class="text-center">'.$btnView.' '.$btnEdit.' '.$btnDelete.'</div>';
 		// 		// }
 		// 		echo json_encode($arrData,JSON_UNESCAPED_UNICODE);
@@ -90,7 +91,7 @@
 					// echo json_encode($arrResponse,JSON_UNESCAPED_UNICODE);
 					echo json_encode($arrData,JSON_UNESCAPED_UNICODE);
 		// 		}
-		// 	}
+			// }
 			die();
 		}  
 

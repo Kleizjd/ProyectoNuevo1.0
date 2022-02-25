@@ -48,8 +48,11 @@
 <!-- Data table plugin-->
 <script type="text/javascript" src="<?= media(); ?>/js/plugins/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="<?= media(); ?>/js/plugins/dataTables.bootstrap.min.js"></script>
- <!-- Datatables JS -->
- <!-- <script src="../../assets/vendor/sb-admin-2/lib/datatables/js/datatables.min.js"></script> -->
+<!--===============================================================================================-->
+<script src="<?= media() ?>/vendor/sweetalert/js/sweetalert2.min.js"></script>
+<!--===============================================================================================-->
+<!-- Datatables JS -->
+<!-- <script src="../../assets/vendor/sb-admin-2/lib/datatables/js/datatables.min.js"></script> -->
 <script type="text/javascript" src="<?= media(); ?>/js/plugins/bootstrap-select.min.js"></script>
 <script src="<?= media(); ?>/js/<?= $data['page_functions_js']; ?>"></script>
 </body>
