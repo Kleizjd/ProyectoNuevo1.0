@@ -18,15 +18,18 @@
     <link href="<?= media() ?>/node_modules//morris.css" rel="stylesheet">
     <!--c3 plugins CSS -->
     <link href="<?= media() ?>/node_modules/c3-master/c3.min.css" rel="stylesheet">
-     <!-- Main CSS-->
-     <!-- <link rel="stylesheet" type="text/css" href="<?= media(); ?>/template/dist/css/main.css"> -->
-     <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/main.css">
+    <!-- Main CSS-->
+    <!-- <link rel="stylesheet" type="text/css" href="<?= media(); ?>/template/dist/css/main.css"> -->
+    <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/main.css">
     <!-- Custom CSS -->
     <link href="<?= media() ?>/template/dist/css/style.css" rel="stylesheet">
     <!-- Dashboard 1 Page CSS -->
     <link href="<?= media() ?>/template/dist/css/pages/dashboard1.css" rel="stylesheet">
+    
+
     <!--===================================================================================================-->
     <!--==================================== RECIENTES ====================================================-->
+    <link href="<?= media() ?>/vendor/datatable/DataTables-1.10.18/css/dataTables.bootstrap4.css" rel="stylesheet">
     <!-- STYLES -->
     <script src="<?= media() ?>/vendor/jquery/jquery.slim.min.js"></script>
     <!-- Bootstrap -->
@@ -59,7 +62,7 @@
     <link href="<?= media() ?>/vendor/morrisjs/morris.css" rel="stylesheet">
     <!--Toaster Popup message CSS -->
     <link href="<?= media() ?>/vendor/toast-master/css/jquery.toast.css" rel="stylesheet">
-   
+
 </head>
 
 <body class="skin-default-dark fixed-layout">

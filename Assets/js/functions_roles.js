@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function(){
 		"aProcessing":true,
 		"aServerSide":true,
         "language": {
-        	"url": "../../Assets/vendor/sb-admin-2/lib/datatables/language/datatablesSpanish.json"
+        	"url": "../../Assets/vendor/datatable/language/datatablesSpanish.json"
         },
         "ajax":{
             "url": " "+base_url+"/Roles/getRoles",
