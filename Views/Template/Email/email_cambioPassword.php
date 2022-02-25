@@ -10,20 +10,6 @@
 		<table border="0" cellpadding="0" cellspacing="0" width="100%">
 			<tbody>
 				<tr>
-					<td align="center" valign="top" width="100%" bgcolor="#f8f9fa" class="x_mobile-padding" style="padding:50px 15px 25px 15px">
-						<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="x_mobile-wrapper">
-							<tbody>
-								<tr>
-									<td align="center" valign="top" style="padding:0">
-										<h1 style="margin:0"><img data-imagetype="External" blockedimagesrc="../../public/img2/GamingDeveloperJ.png" width="209" height="33" alt="" border="0" style="display:block">
-										</h1>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</td>
-				</tr>
-				<tr>
 					<td align="center" height="100%" valign="top" width="100%" bgcolor="#f8f9fa" class="x_mobile-padding" style="padding:25px 15px 25px 15px">
 						<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="x_mobile-wrapper">
 							<tbody>
@@ -41,21 +27,13 @@
 																			<?= NOMBRE_EMPESA ?></h3>
 																		<p>¡Hola! <?= $data['nombreUsuario']; ?></p>
 																		<p style="color:#868e96; font-size:16px; line-height:24px; margin:0 0 20px 0">
-																			Parece que enviaste una solicitud para restablecer el acceso para el usuario:</p> <strong><?= $data['email']; ?></strong>
-																		<p> JD.
-																			Si no fueras tú, no hay nada que hacer ni de qué preocuparte. Puedes seguir adelante.
-																		</p>
+																			Parece que enviaste una solicitud para restablecer tu contraseña de usuario: <?= $data['email']; ?></p>
 																		<p style="color:#868e96; font-size:16px; line-height:24px; margin:0">
-																			Si este eres tu, siguiente el link de bajo
+																			Si este eres tu, Haz Clic en el Boton de bajo
 																			para cambiar tu contrase&ntilde;a y poder ingresar a tu cuenta...
 																		</p>
-																		<p class="x_text_white">
-																			<a href="<?= $data['url_recovery']; ?>" target="_blank" class=""> Confirmar datos</a>
-																		</p>
 																		<br>
-																		<p>Si no te funciona el botón puedes copiar y pegar la siguiente dirección en tu navegador.</p>
-																		<span><?= $data['url_recovery']; ?></span>
-																		<p class="x_title_gray"><a href="<?= WEB_EMPRESA; ?>" target="_blanck"><?= WEB_EMPRESA; ?></a></p>
+
 																	</td>
 																</tr>
 																<tr>
@@ -68,9 +46,16 @@
 																							<tbody>
 																								<tr>
 																									<td align="center" style="background-color:#4dadf7; border-radius:4px">
-																										<a href="<ENLACE>" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" style="font-size:20px; font-weight:600; font-family:'Proxima Nova Soft','Proxima Nova','Helvetica Neue',Helvetica,Arial,sans-serif; color:#f8f9fa; display:inline-block; border:1px solid #4dadf7; padding:16px 24px; border-radius:4px; text-decoration:none">Cambiar
+																										<a href="<?= $data['url_recovery']; ?>" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" style="font-size:20px; font-weight:600; font-family:'Proxima Nova Soft','Proxima Nova','Helvetica Neue',Helvetica,Arial,sans-serif; color:#f8f9fa; display:inline-block; border:1px solid #4dadf7; padding:16px 24px; border-radius:4px; text-decoration:none">Cambiar
 																											mi
 																											contrasena</a>
+																									</td>
+																								</tr>
+																								<tr>
+																									<td>
+																										<p style="color:#868e96; font-size:16px; line-height:24px; margin:0">Si no te funciona el botón puedes copiar y pegar la siguiente dirección en tu navegador.</p>
+																										<span><?= $data['url_recovery']; ?></span>
+																										<p class="x_title_gray"><a href="<?= WEB_EMPRESA; ?>" target="_blanck"><?= WEB_EMPRESA; ?></a></p>
 																									</td>
 																								</tr>
 																							</tbody>

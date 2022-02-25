@@ -84,21 +84,20 @@
 						
 						if($requestUpdate){
 							$sendEmail = sendEmail($dataUsuario,'email_cambioPassword');
-							// var_dump($sendEmail);
-							// if($sendEmail){
-						// 		$arrResponse = array('status' => true, 
-						// 						 'msg' => 'Se ha enviado un email a tu cuenta de correo para cambiar tu contraseña.');
-						// 	}else{
-						// 		$arrResponse = array('status' => false, 
-						// 						 'msg' => 'No es posible realizar el proceso, intenta más tarde.' );
-						// 	}
-						// }else{
-						// 	$arrResponse = array('status' => false, 
-						// 						 'msg' => 'No es posible realizar el proceso, intenta más tarde.' );
+							if($sendEmail){
+								$arrResponse = array('status' => true, 
+												 'msg' => 'Se ha enviado un email a tu cuenta de correo para cambiar tu contraseña.');
+							}else{
+								$arrResponse = array('status' => false, 
+												 'msg' => 'No es posible realizar el proceso, intenta más tarde.' );
+							}
+						}else{
+							$arrResponse = array('status' => false, 
+												 'msg' => 'No es posible realizar el proceso, intenta más tarde.' );
 						}
 					}
 				}
-				// echo json_encode($arrResponse,JSON_UNESCAPED_UNICODE);
+				echo json_encode($arrResponse,JSON_UNESCAPED_UNICODE);
 			}
 			die();
 		}

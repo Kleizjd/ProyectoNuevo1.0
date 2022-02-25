@@ -6,7 +6,7 @@
         <!-- <span><img src="<?= media() ?>/images/logo-icon.png" alt="elegant admin template"></span> -->
         
         <a class="waves-effect waves-dark ml-auto hidden-sm-down" href="javascript:void(0)">
-        <div class="app-header__logo">Tienda Vitual</div>
+        <div class="app-header__logo">Tienda Virtual</div>
 
             <a class="nav-lock waves-effect waves-dark ml-auto hidden-md-down" href="javascript:void(0)"><i class="mdi mdi-toggle-switch"></i></a>
             <a class="nav-toggler waves-effect waves-dark ml-auto hidden-sm-up" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>

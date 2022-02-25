@@ -23,7 +23,7 @@
 
   <section id="wrapper">
 
-    <div class="login-register" style="background-image:url(assets/images/background/fondo-login-1024x427.jpg);">
+    <div class="login-register" style="background-image:url(<?= media() ?>/images/background/fondo-login-1024x427.jpg);">
       <div class="login-box card login-box">
         <div class="card-header">
           <div class="justify-content-center row">
@@ -34,7 +34,7 @@
             </div>
           </div>
           <div class="card-body">
-            <form class="form-horizontal" id="formResetPass" name="formResetPass" action="" method="POST" autocomplete="off">
+            <form class="form-horizontal" id="formCambiarPass" name="formCambiarPass" action="" method="POST" autocomplete="off">
               <input type="hidden" id="idUsuario" name="idUsuario" value="<?= $data['idpersona']; ?>" required>
               <input type="hidden" id="txtEmail" name="txtEmail" value="<?= $data['email']; ?>" required>
               <input type="hidden" id="txtToken" name="txtToken" value="<?= $data['token']; ?>" required>
