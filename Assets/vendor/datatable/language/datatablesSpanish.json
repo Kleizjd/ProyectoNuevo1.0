@@ -11,7 +11,7 @@
 	"sSearchPlaceholder": "Ingrese texto a buscar",
 	"sUrl": "",
 	"sInfoThousands": ",",
-	"sLoadingRecords": "<img class='img-fluid' src='../../public/img/gif/loader.gif' alt='loading'>",
+	// "sLoadingRecords": "<img class='img-fluid' src='Assets/public/img/gif/loader.gif' alt='loading'>",
 	"oPaginate": {
 		"sFirst": "Primero",
 		"sLast": "Último",

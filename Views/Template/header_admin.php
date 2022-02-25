@@ -72,7 +72,7 @@
     <div class="preloader">
         <div class="loader">
             <div class="loader__figure"></div>
-            <p class="loader__label">Elegant admin</p>
+            <p class="loader__label">Tienda Virtual</p>
         </div>
     </div>
     <!-- ============================================================== -->
