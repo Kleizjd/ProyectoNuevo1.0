@@ -64,20 +64,28 @@
     function sendEmail($data,$template)
     {
         if(ENVIRONMENT == 1){
-            $asunto = $data['asunto'];
-            $emailDestino = $data['email'];
+            // $cabecera = "MIME-Version: 1.0"."\r\n"."Content-type:text/html;charset=UTF-8"."\r\n"."From: jose.jdgo97@gmail.com"."\r\n"."Reply-To: jose.jdgo97@gmail.com"."\r\n"."X-Mailer: PHP/" . phpversion();
+            // $asunto = $data['asunto'];
+            // $emailDestino = $data['email'];
             $empresa = NOMBRE_REMITENTE;
             $remitente = EMAIL_REMITENTE;
+            // echo $empresa;
+            // echo $remitente;
             $emailCopia = !empty($data['emailCopia']) ? $data['emailCopia'] : "";
             //ENVIO DE CORREO
             $de = "MIME-Version: 1.0\r\n";
             $de .= "Content-type: text/html; charset=UTF-8\r\n";
             $de .= "From: {$empresa} <{$remitente}>\r\n";
             $de .= "Bcc: $emailCopia\r\n";
+            echo "".$de;
+            // echo "template ".$template;
             ob_start();
             require_once("Views/Template/Email/".$template.".php");
             $mensaje = ob_get_clean();
             $send = mail($emailDestino, $asunto, $mensaje, $de);
+            // var_dump($send);
+            // echo "send ".$send;
+
             return $send;
         }else{
            //Create an instance; passing `true` enables exceptions
