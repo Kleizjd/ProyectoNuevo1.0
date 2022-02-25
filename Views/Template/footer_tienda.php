@@ -71,6 +71,7 @@
     <!-- Owl Carousel -->
     <script src="<?= media() ?>/template/my-css-js/js/owl.carousel.js"></script>
     <!-- /END/[ Owl Carousel ] --/START/  Slide-To-Top JavaScript (No-Need-To-Change) -->
+    
     <script type="text/javascript">
         $(document).ready(function() {
             var defaults = {
@@ -112,8 +113,7 @@
     </script>
 <!-- <script src="<?= media() ?>/vendor/moment/moment-with-locales.min.js"></script> -->
 <!-- <script type="text/javascript" src="<?= media() ?>/vendor/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js"></script> -->
-<script src="<?= media() ?>/vendor/sweetalert/js/sweetalert2.min.js"></script> 
 <!--===================================================================================================-->
 <!--==================================== RECIENTES ==========================================-->
-<?php include_once "scripts.php"; ?>
+
 <!-- \\Fin SCRIPTS -->

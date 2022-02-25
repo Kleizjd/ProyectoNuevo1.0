@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8" content="Proyecto de Grado">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!--===============================[ JQuery ]================================================-->
     <script src="<?= media() ?>/vendor/jquery/jquery.slim.min.js"></script>
     <!--================================[ STYLES ]========================================================-->
@@ -31,8 +30,6 @@
     <link rel="stylesheet" href="<?= media() ?>/vendor/alertify/css/alertify.min.css?v=<?= rand(); ?>">
     <!-- Default theme -->
     <link rel="stylesheet" href="<?= media() ?>/vendor/alertify/css/themes/default.min.css?v=<?= rand(); ?>">
-    <link rel="stylesheet" href="<?= media() ?>/template/dist/css/style.min.css?v=<?= rand(); ?>">
-    <link rel="stylesheet" href="<?= media() ?>/template/my-css-js/css/my-styles.css">
     <link href="<?= media() ?>/vendor/c3-master/c3.min.css" rel="stylesheet">
     <link href="<?= media() ?>/vendor/morrisjs/morris.css" rel="stylesheet">
     <!--Toaster Popup message CSS -->
