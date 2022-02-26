@@ -4,6 +4,13 @@
 		public function __construct()
 		{
 			parent::__construct();
+
+			// session_start();
+			// if(isset($_SESSION['login']))
+			// {
+			// 	header('Location: '.base_url().'/dashboard');
+			// 	die();
+			// }
 		}
 
 		public function Roles()
@@ -20,7 +27,6 @@
 		public function getRoles()
 		{
 			$arrData = $this->model->selectRoles();
-
 			for ($i=0; $i < count($arrData); $i++) {
 
 				if($arrData[$i]['status'] == 1)
@@ -36,6 +42,7 @@
 				<button class="btn btn-danger btn-sm btnDelRol" rl="'.$arrData[$i]['idrol'].'" title="Eliminar"><i class="far fa-trash-alt"></i></button>
 				</div>';
 			}
+
 			echo json_encode($arrData,JSON_UNESCAPED_UNICODE);
 			die();
 		}
@@ -112,4 +119,3 @@
 		}
 
 	}
- ?>
