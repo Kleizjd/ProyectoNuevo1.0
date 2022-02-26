@@ -19,14 +19,13 @@
     <!--c3 plugins CSS -->
     <link href="<?= media() ?>/node_modules/c3-master/c3.min.css" rel="stylesheet">
     <!-- Main CSS-->
-    <!-- <link rel="stylesheet" type="text/css" href="<?= media(); ?>/template/dist/css/main.css"> -->
     <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/main.css">
-    <!-- Custom CSS -->
+    <!--================================[ STYLES ]========================================================-->
     <link href="<?= media() ?>/template/dist/css/style.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/ownstyle.css">
     <!-- Dashboard 1 Page CSS -->
     <link href="<?= media() ?>/template/dist/css/pages/dashboard1.css" rel="stylesheet">
-    
-
     <!--===================================================================================================-->
     <!--==================================== RECIENTES ====================================================-->
     <link href="<?= media() ?>/vendor/datatable/DataTables-1.10.18/css/dataTables.bootstrap4.css" rel="stylesheet">

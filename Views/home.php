@@ -1,15 +1,10 @@
-<?php 
-	headerTienda($data);
+<?php headerTienda($data);
 	// $arrSlider = $data['slider'];
 	// $arrBanner = $data['banner'];
 	// $arrProductos = $data['productos'];
-
 	$contentPage = "";
 	if(!empty($data['page'])){
-		$contentPage = $data['page']['contenido'];
-	}
-
- ?>
+		$contentPage = $data['page']['contenido']; } ?>
  
  <!-- Carrusel de imgenes -->
 <?php include_once "views/Template/Modals/carousel.php" ?>
@@ -19,7 +14,5 @@
 </div>
 <!-- //Iframe google maps-->
 
- <?php 
-	footerTienda($data);
- ?>
+ <?php footerTienda($data); ?>
 

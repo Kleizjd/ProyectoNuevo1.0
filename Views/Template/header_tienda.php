@@ -8,6 +8,7 @@
     <script src="<?= media() ?>/vendor/jquery/jquery.slim.min.js"></script>
     <!--================================[ STYLES ]========================================================-->
     <link rel="stylesheet" href="<?= media() ?>/template/my-css-js/css/style.css">
+    <link rel="stylesheet" href="<?= media() ?>/css/ownstyle.css">
     <!--===============================[ Owl-Carousel-CSS ]================================================-->
     <link rel="stylesheet" href="<?= media() ?>/template/my-css-js/css/owl.carousel.css" type="text/css" media="all" />
     <!--===================================================================================================-->
