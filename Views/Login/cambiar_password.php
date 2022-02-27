@@ -74,7 +74,8 @@
   <script src="<?= media(); ?>/js/main.js"></script>
   <!-- The javascript plugin to display page loading on top-->
   <script src="<?= media(); ?>/js/plugins/pace.min.js"></script>
-  <script src="<?= media() ?>/vendor/sweetalert/js/sweetalert2.min.js" type="text/javascript"></script>
+  <script src="<?= media(); ?>/js/plugins/sweetalert.min.js"></script>
+  <!-- <script src="<?= media() ?>/vendor/sweetalert/js/sweetalert2.min.js" type="text/javascript"></script> -->
   <script src="<?= media(); ?>/js/<?= $data['page_functions_js']; ?>"></script>
 </body>
 

@@ -41,7 +41,6 @@
     <!-- Datatables CSS -->
     <link href="<?= media() ?>/vendor/datatables/DataTables-1.10.18/css/dataTables.bootstrap4.css" rel="stylesheet">
     <!-- Sweet alert 2 CSS -->
-    <link href="<?= media() ?>/vendor/sweetalert/css/sweetalert2.min.css" rel="stylesheet">
     <!-- Datepicker Jquery-UI CSS -->
     <!--------------------------------CALENDAR [DATE-TIME-PICKER]-------------------------------->
     <link href="<?= media() ?>/endor/DateTimePicker/css/materialDateTimePicker.css" rel="stylesheet" />

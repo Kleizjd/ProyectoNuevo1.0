@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Author" content="José Daniel Grijalba">
 
-    <script src="<?= media() ?>/vendor/jquery/jquery.slim.min.js"></script>
+    <!-- <script src="<?= media() ?>/vendor/jquery/jquery.slim.min.js"></script> -->
     <link rel="stylesheet" href="<?= media() ?>/vendor/bootstrap-4.4.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= media() ?>/vendor/fontawesome/css/all.min.css">
     
@@ -14,6 +14,7 @@
     <!-- Custom CSS -->
     <link href="<?= media() ?>/template/my-css-js/css/style.min.css" rel="stylesheet">
     <!-- Main CSS-->
+    <link rel="stylesheet" type="text/css" href="<?= media();?>/css/main.css">
     <link rel="stylesheet" type="text/css" href="<?= media(); ?>/template/dist/css/style.css">
     <title><?php $data['page_tag']; ?></title>
 
@@ -103,7 +104,7 @@
     <script src="<?= media(); ?>/js/main.js"></script>
     <!-- The javascript plugin to display page loading on top-->
     <script src="<?= media(); ?>/js/plugins/pace.min.js"></script>
-    <script src="<?= media() ?>/vendor/sweetalert/js/sweetalert2.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="<?= media();?>/js/plugins/sweetalert.min.js"></script>
     <script src="<?= media(); ?>/js/<?= $data['page_functions_js']; ?>"></script>
 </body>
 
