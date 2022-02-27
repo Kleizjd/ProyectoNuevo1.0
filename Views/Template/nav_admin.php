@@ -56,11 +56,3 @@
 <!-- ============================================================== -->
 <!-- End Left Sidebar - style you can find in sidebar.scss  -->
 <!-- ============================================================== -->
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        $('.collapse').click(function() {
-            $('.navbar-toggle:visible').click();
-        });
-    }, false);
- 
-</script>
