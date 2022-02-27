@@ -9,7 +9,7 @@
   <script src="<?= media() ?>/vendor/jquery/jquery.slim.min.js"></script>
   <link rel="stylesheet" href="<?= media() ?>/vendor/bootstrap-4.4.1-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?= media() ?>/vendor/fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="<?= media() ?>/vendor/sweetalert/css/sweetalert2.min.css">
+  
   <link href="<?= media() ?>/template/my-css-js/css/login-register-lock.css" rel="stylesheet">
   <!-- Custom CSS -->
   <link href="<?= media() ?>/template/my-css-js/css/style.min.css" rel="stylesheet">

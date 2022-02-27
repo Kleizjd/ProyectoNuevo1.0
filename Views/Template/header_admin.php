@@ -15,7 +15,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="<?= media() ?>/images/favicon.png">
     <!-- This page CSS -->
     <!-- chartist CSS -->
-    <link href="<?= media() ?>/node_modules//morris.css" rel="stylesheet">
+    <link href="<?= media() ?>/node_modules/morris.css" rel="stylesheet">
     <!--c3 plugins CSS -->
     <link href="<?= media() ?>/node_modules/c3-master/c3.min.css" rel="stylesheet">
     <!-- Main CSS-->

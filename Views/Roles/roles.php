@@ -35,7 +35,8 @@
               <div class="tile">
                 <div class="tile-body">
                   <div class="table-responsive">
-                    <table class="table table-hover table-bordered" id="tableRoles">
+                    <table class="table table-hover table-bordered table-condensed" style="width:100%" id="tableRoles">
+                    <!-- <table class="table table-striped table-bordered table-condensed" style="width:100%" id="tableRoles"> -->
                       <thead>
                         <tr>
                           <th>ID</th>

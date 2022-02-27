@@ -6,6 +6,7 @@
 	$controller = $arrUrl[0];//creo que es innecesario
 	$method = $arrUrl[0];
 	$params = "";
+	// print_r($arrUrl);
 
 	if(!empty($arrUrl[1]))
 	{

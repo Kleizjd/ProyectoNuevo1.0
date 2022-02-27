@@ -64,7 +64,7 @@
 <!--===============================[ SCRIPTS ]================================================-->
  <!-- <script src="app/lib/global.js"></script> -->
     <!-- Supportive-JavaScript -->
-    <script src="<?= media() ?>/vendor/sweetalert/js/sweetalert2.min.js"></script>
+         <script type="text/javascript" src="<?= media(); ?>/js/plugins/sweetalert.min.js"></script>
     <!-- Banner-Slider-JavaScript -->
     <script src="<?= media() ?>/template/my-css-js/js/responsiveslides.min.js"></script>
     <script src="<?= media() ?>/vendor/bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js"></script>
