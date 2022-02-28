@@ -34,7 +34,7 @@ getModal('modalUsuarios', $data);
                 <div class="tile">
                     <div class="tile-body">
                         <div class="table-responsive">
-                            <table class="table table-hover table-bordered" id="tableUsuarios">
+                            <table class="table table-hover table-bordered table-condensed" style="width:100%" id="tableUsuarios">
                                 <thead>
                                     <tr>
                                         <th>ID</th>
