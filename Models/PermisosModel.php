@@ -69,6 +69,8 @@
 				$arrPermisos[$request[$i]['moduloid']] = $request[$i];
 			}
 			return $arrPermisos;
+			// dep($arrPermisos);
+
 		}
 
 		public function getRol(int $idrol){
