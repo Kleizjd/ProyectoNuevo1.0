@@ -90,7 +90,7 @@ window.addEventListener('load', function() {
                 swal("Atención", "El código debe ser mayor que 5 dígitos." , "error");
                 return false;
             }
-            divLoading.style.display = "flex";
+            //divLoading.style.display = "flex";
             tinyMCE.triggerSave();
             let request = (window.XMLHttpRequest) ? 
                             new XMLHttpRequest() : 
@@ -125,7 +125,7 @@ window.addEventListener('load', function() {
                         swal("Error", objData.msg , "error");
                     }
                 }
-                divLoading.style.display = "none";
+                //divLoading.style.display = "none";
                 return false;
             }
         }

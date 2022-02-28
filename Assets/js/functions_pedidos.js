@@ -71,7 +71,7 @@ function fntTransaccion(idtransaccion){
                     new XMLHttpRequest() : 
                     new ActiveXObject('Microsoft.XMLHTTP');
     let ajaxUrl = base_url+'/Pedidos/getTransaccion/'+idtransaccion;
-    divLoading.style.display = "flex";
+    //divLoading.style.display = "flex";
     request.open("GET",ajaxUrl,true);
     request.send();
     request.onreadystatechange = function(){
@@ -83,7 +83,7 @@ function fntTransaccion(idtransaccion){
             }else{
                 swal("Error", objData.msg , "error");
             }
-            divLoading.style.display = "none";
+            //divLoading.style.display = "none";
             return false;
         }
     }
@@ -110,7 +110,7 @@ function fntReembolsar(){
 
         if(isConfirm){ 
             $('#modalReembolso').modal('hide');
-            divLoading.style.display = "flex";
+            //divLoading.style.display = "flex";
             let request = (window.XMLHttpRequest) ? 
                     new XMLHttpRequest() : 
                     new ActiveXObject('Microsoft.XMLHTTP');
@@ -129,7 +129,7 @@ function fntReembolsar(){
                     }else{
                         swal("Error", objData.msg , "error");
                     }
-                    divLoading.style.display = "none";
+                    //divLoading.style.display = "none";
                     return false;
                 }
             }
@@ -144,7 +144,7 @@ function fntEditInfo(element,idpedido){
                     new XMLHttpRequest() : 
                     new ActiveXObject('Microsoft.XMLHTTP');
     let ajaxUrl = base_url+'/Pedidos/getPedido/'+idpedido;
-    divLoading.style.display = "flex";
+    //divLoading.style.display = "flex";
     request.open("GET",ajaxUrl,true);
     request.send();
     request.onreadystatechange = function(){
@@ -159,7 +159,7 @@ function fntEditInfo(element,idpedido){
             }else{
                 swal("Error", objData.msg , "error");
             }
-            divLoading.style.display = "none";
+            //divLoading.style.display = "none";
             return false;
 
         }
@@ -183,7 +183,7 @@ function fntUpdateInfo(){
                     new XMLHttpRequest() : 
                     new ActiveXObject('Microsoft.XMLHTTP');
         let ajaxUrl = base_url+'/Pedidos/setPedido/';
-        divLoading.style.display = "flex";
+        //divLoading.style.display = "flex";
         let formData = new FormData(formUpdatePedido);
         request.open("POST",ajaxUrl,true);
         request.send(formData);
@@ -205,7 +205,7 @@ function fntUpdateInfo(){
                     swal("Error", objData.msg , "error");
                 } 
 
-                divLoading.style.display = "none";
+                //divLoading.style.display = "none";
                 return false;
             }
         }

@@ -162,7 +162,7 @@ if(document.querySelector("#formRegister")){
                 return false;
             } 
         } 
-        divLoading.style.display = "flex";
+        //divLoading.style.display = "flex";
         let request = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
         let ajaxUrl = base_url+'/Tienda/registro'; 
         let formData = new FormData(formRegister);
@@ -178,7 +178,7 @@ if(document.querySelector("#formRegister")){
                     swal("Error", objData.msg , "error");
                 }
             }
-            divLoading.style.display = "none";
+            //divLoading.style.display = "none";
             return false;
         }
     }
@@ -322,7 +322,7 @@ if(document.querySelector("#btnComprar")){
 			swal("", "Complete datos de envío" , "error");
 			return;
 		}else{
-			divLoading.style.display = "flex";
+			//divLoading.style.display = "flex";
 			let request = (window.XMLHttpRequest) ? 
 	                    new XMLHttpRequest() : 
 	                    new ActiveXObject('Microsoft.XMLHTTP');
@@ -343,7 +343,7 @@ if(document.querySelector("#btnComprar")){
 		    			swal("", objData.msg , "error");
 		    		}
 		    	}
-		    	divLoading.style.display = "none";
+		    	//divLoading.style.display = "none";
             	return false;
 		    }
 		}
@@ -369,7 +369,7 @@ if(document.querySelector("#frmSuscripcion")){
 			return false;
 		}	
 		
-		divLoading.style.display = "flex";
+		//divLoading.style.display = "flex";
 		let request = (window.XMLHttpRequest) ? 
                     new XMLHttpRequest() : 
                     new ActiveXObject('Microsoft.XMLHTTP');
@@ -388,7 +388,7 @@ if(document.querySelector("#frmSuscripcion")){
 	    			swal("", objData.msg , "error");
 	    		}
 	    	}
-	    	divLoading.style.display = "none";
+	    	//divLoading.style.display = "none";
         	return false;
 	    
 		}
@@ -420,7 +420,7 @@ if(document.querySelector("#frmContacto")){
 			return false;
 		}	
 		
-		divLoading.style.display = "flex";
+		//divLoading.style.display = "flex";
 		let request = (window.XMLHttpRequest) ? 
                     new XMLHttpRequest() : 
                     new ActiveXObject('Microsoft.XMLHTTP');
@@ -439,7 +439,7 @@ if(document.querySelector("#frmContacto")){
 	    			swal("", objData.msg , "error");
 	    		}
 	    	}
-	    	divLoading.style.display = "none";
+	    	//divLoading.style.display = "none";
         	return false;
 		}
 

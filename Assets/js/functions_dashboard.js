@@ -25,7 +25,7 @@ function fntSearchPagos(){
             new XMLHttpRequest() : 
             new ActiveXObject('Microsoft.XMLHTTP');
         let ajaxUrl = base_url+'/Dashboard/tipoPagoMes';
-        divLoading.style.display = "flex";
+        //divLoading.style.display = "flex";
         let formData = new FormData();
         formData.append('fecha',fecha);
         request.open("POST",ajaxUrl,true);
@@ -34,7 +34,7 @@ function fntSearchPagos(){
             if(request.readyState != 4) return;
             if(request.status == 200){
                 $("#pagosMesAnio").html(request.responseText);
-                divLoading.style.display = "none";
+                //divLoading.style.display = "none";
                 return false;
             }
         }
@@ -51,7 +51,7 @@ function fntSearchVMes(){
             new XMLHttpRequest() : 
             new ActiveXObject('Microsoft.XMLHTTP');
         let ajaxUrl = base_url+'/Dashboard/ventasMes';
-        divLoading.style.display = "flex";
+        //divLoading.style.display = "flex";
         let formData = new FormData();
         formData.append('fecha',fecha);
         request.open("POST",ajaxUrl,true);
@@ -60,7 +60,7 @@ function fntSearchVMes(){
             if(request.readyState != 4) return;
             if(request.status == 200){
                 $("#graficaMes").html(request.responseText);
-                divLoading.style.display = "none";
+                //divLoading.style.display = "none";
                 return false;
             }
         }
@@ -77,7 +77,7 @@ function fntSearchVAnio(){
             new XMLHttpRequest() : 
             new ActiveXObject('Microsoft.XMLHTTP');
         let ajaxUrl = base_url+'/Dashboard/ventasAnio';
-        divLoading.style.display = "flex";
+        //divLoading.style.display = "flex";
         let formData = new FormData();
         formData.append('anio',anio);
         request.open("POST",ajaxUrl,true);
@@ -86,7 +86,7 @@ function fntSearchVAnio(){
             if(request.readyState != 4) return;
             if(request.status == 200){
                 $("#graficaAnio").html(request.responseText);
-                divLoading.style.display = "none";
+                //divLoading.style.display = "none";
                 return false;
             }
         }
