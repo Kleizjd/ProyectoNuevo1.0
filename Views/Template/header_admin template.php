@@ -10,59 +10,21 @@
     <meta name="description" content="Productos JD GO">
     <meta name="robots" content="noindex,nofollow">
     <link rel="shortcut icon" href="<?= media() ?>/images/background/Always2.jpg" type="image/x-icon">
-    <title><?= $data['page_tag']?></title>
+    <title>Venta de productos</title>
+    <link rel="canonical" href="https://www.wrappixel.com/templates/elegant-admin/" />
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="<?= media() ?>/images/favicon.png">
     <!-- This page CSS -->
-  
-    <!-- Main CSS-->
-    <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/main.css">
-    <link rel="stylesheet" type="text/css" href="<?= media();?>/css/bootstrap-select.min.css"> 
-    <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/ownstyle.css"> 
-    <!--================================[ STYLES ]========================================================-->
-    <link href="<?= media() ?>/template/dist/css/style.css" rel="stylesheet">
-      <!-- chartist CSS -->
-      <link href="<?= media() ?>/node_modules/morris.css" rel="stylesheet">
+    <!-- chartist CSS -->
+    <link href="<?= media() ?>/node_modules/morrisjs/morris.css" rel="stylesheet">
+    <!--Toaster Popup message CSS -->
+    <link href="<?= media() ?>/node_modules/toast-master/css/jquery.toast.css" rel="stylesheet">
     <!--c3 plugins CSS -->
     <link href="<?= media() ?>/node_modules/c3-master/c3.min.css" rel="stylesheet">
     <!-- Custom CSS -->
+    <link href="<?= media() ?>/template/dist/css/style.min.css" rel="stylesheet">
     <!-- Dashboard 1 Page CSS -->
     <link href="<?= media() ?>/template/dist/css/pages/dashboard1.css" rel="stylesheet">
-    <!--===================================================================================================-->
-    <!--==================================== RECIENTES ====================================================-->
-    <link href="<?= media() ?>/vendor/datatable/DataTables-1.10.18/css/dataTables.bootstrap4.css" rel="stylesheet">
-    <!-- STYLES -->
-    <script src="<?= media() ?>/vendor/jquery/jquery.slim.min.js"></script>
-    <!-- Bootstrap -->
-    <link href="<?= media() ?>/vendor/bootstrap-4.4.1-dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template-->
-    <!-- MetisMenu CSS -->
-    <link href="<?= media() ?>/vendor/sb-admin-2-2017/lib/metisMenu/css/metisMenu.min.css" rel="stylesheet">
-    <!-- Font-Awesome -->
-    <link href="<?= media() ?>/vendor/fontawesome/css/all.min.css" rel="stylesheet">
-    <!-- Datatables CSS -->
-    <link href="<?= media() ?>/vendor/datatables/DataTables-1.10.18/css/dataTables.bootstrap4.css" rel="stylesheet">
-    <!-- Sweet alert 2 CSS -->
-    <link href="<?= media() ?>/vendor/sweetalert/css/sweetalert2.min.css" rel="stylesheet">
-    <!-- Datepicker Jquery-UI CSS -->
-    <!--------------------------------CALENDAR [DATE-TIME-PICKER]-------------------------------->
-    <link href="<?= media() ?>/endor/DateTimePicker/css/materialDateTimePicker.css" rel="stylesheet" />
-    <link href='<?= media() ?>/endor/DateTimePicker/css/addfonts.css' rel='stylesheet' type='text/css'>
-    <!------------------------------------------------------------------------------------------->
-    <!-- Select2 CSS -->
-    <link href="<?= media() ?>/vendor/select2/css/select2.min.css" rel="stylesheet">
-    <!-- Select2 Bootstrap Theme -->
-    <link rel="stylesheet" href="<?= media() ?>/vendor/select2/css/select2-bootstrap.min.css">
-    <!-- Alertify CSS 1.12.0 -->
-    <link rel="stylesheet" href="<?= media() ?>/vendor/alertify/css/alertify.min.css">
-    <!-- Default theme -->
-    <link rel="stylesheet" href="<?= media() ?>/vendor/alertify/css/themes/default.min.css">
-    <link rel="stylesheet" href="<?= media() ?>/template/dist/css/style.min.css">
-    <link rel="stylesheet" href="<?= media() ?>/template/my-css-js/css/my-styles.css">
-    <link href="<?= media() ?>/vendor/c3-master/c3.min.css" rel="stylesheet">
-    <link href="<?= media() ?>/vendor/morrisjs/morris.css" rel="stylesheet">
-    <!--Toaster Popup message CSS -->
-    <link href="<?= media() ?>/vendor/toast-master/css/jquery.toast.css" rel="stylesheet">
 
 </head>
 
@@ -220,3 +182,4 @@
         <!-- End Topbar header -->
         <!-- ============================================================== -->
         <?php require_once("nav_admin.php"); ?>
+        

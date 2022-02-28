@@ -4,9 +4,9 @@
 <aside class="left-sidebar">
     <div class="d-flex no-block nav-text-box align-items-center">
         <!-- <span><img src="<?= media() ?>/images/logo-icon.png" alt="elegant admin template"></span> -->
-        
+
         <a class="waves-effect waves-dark ml-auto hidden-sm-down" href="javascript:void(0)">
-        <div class="app-header__logo">Tienda Virtual</div>
+            <div class="app-header__logo">Tienda Virtual</div>
 
             <a class="nav-lock waves-effect waves-dark ml-auto hidden-md-down" href="javascript:void(0)"><i class="mdi mdi-toggle-switch"></i></a>
             <a class="nav-toggler waves-effect waves-dark ml-auto hidden-sm-up" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
@@ -27,13 +27,13 @@
                 <li> <a class="waves-effect waves-dark" aria-expanded="false" href="<?= base_url(); ?>/perfil"><i class="ti-user"></i><span class="hide-menu">Perfil</span></a></li>
 
                 </li>
-                <li> <a class="app-menu__item has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="app-menu__icon fa fa-users"></i><span class="hide-menu">Usuarios</span></a>
+                <li> <a class="app-menu__item has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="app-menu__icon fa fa-users"></i><span class="hide-menu" >Usuarios</span></a>
                     <ul aria-expanded="false" class="collapse">
                         <li><a href="<?= base_url(); ?>/usuarios">Usuarios <i class="far fa-circle text-success"></i></a></li>
                         <li><a href="<?= base_url(); ?>/roles">Roles<i class="far fa-circle text-success"></i></a></li>
                         <!-- <li><a href="app-compose.html">Compose Mail <i class="icon-note"></i></a></li> -->
                     </ul>
-                </li>   
+                </li>
                 <li> <a class="app-menu__item has-arrow waves-effect waves-dark" aria-expanded="false"><i class="app-menu__icon fa fa-archive"></i><span class="hide-menu">Tienda</span></a>
                     <ul aria-expanded="false" class="collapse">
                         <li><a href="<?= base_url(); ?>/tienda">Productos<i class="far fa-circle text-success"></i></a></li>
@@ -56,3 +56,14 @@
 <!-- ============================================================== -->
 <!-- End Left Sidebar - style you can find in sidebar.scss  -->
 <!-- ============================================================== -->
+<script>
+    $(document).ready(function() {
+        //============SHOW MODAL VALIDATE COSTUMER=============//
+        // "use strict";
+        // $(function validateCostumerShow() {
+        //     $("#desplegable").hide();
+        //     // document.getElementById("desplegable").style.display="block"
+        // });
+    });
+    // 
+</script>

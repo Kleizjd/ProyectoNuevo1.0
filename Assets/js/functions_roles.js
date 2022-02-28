@@ -2,7 +2,6 @@
 var tableRoles;
 
 document.addEventListener('DOMContentLoaded', function(){
-    // "width": auto,
 	tableRoles = $('#tableRoles').dataTable( {
         
 		"aProcessing":true,
