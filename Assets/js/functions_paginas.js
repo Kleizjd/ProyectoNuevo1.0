@@ -87,7 +87,7 @@ if(document.querySelector("#formPaginas")){
             swal("Atención", "Todos los campos son obligatorios." , "error");
             return false;
         }
-        //divLoading.style.display = "flex";
+        divLoading.style.display = "flex";
         tinyMCE.triggerSave();
         let request = (window.XMLHttpRequest) ? 
                         new XMLHttpRequest() : 
@@ -114,7 +114,7 @@ if(document.querySelector("#formPaginas")){
                     swal("Error", objData.msg , "error");
                 }
             }
-            //divLoading.style.display = "none";
+            divLoading.style.display = "none";
             return false;
         }
     }

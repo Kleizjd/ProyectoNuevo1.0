@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function(){
                     return false;
                 } 
             } 
-            //divLoading.style.display = "flex";
+            divLoading.style.display = "flex";
             let request = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
             let ajaxUrl = base_url+'/Usuarios/setUsuario'; 
             let formData = new FormData(formUsuario);
@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function(){
                         swal("Error", objData.msg , "error");
                     }
                 }
-                //divLoading.style.display = "none";
+                divLoading.style.display = "none";
                 return false;
             }
         }
@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', function(){
                     return false;
                 } 
             } 
-            //divLoading.style.display = "flex";
+            divLoading.style.display = "flex";
             let request = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
             let ajaxUrl = base_url+'/Usuarios/putPerfil'; 
             let formData = new FormData(formPerfil);
@@ -181,7 +181,7 @@ document.addEventListener('DOMContentLoaded', function(){
                         swal("Error", objData.msg , "error");
                     }
                 }
-                //divLoading.style.display = "none";
+                divLoading.style.display = "none";
                 return false;
             }
         }
@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', function(){
                 swal("Atención", "Todos los campos son obligatorios." , "error");
                 return false;
             }
-            //divLoading.style.display = "flex";
+            divLoading.style.display = "flex";
             let request = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
             let ajaxUrl = base_url+'/Usuarios/putDFical'; 
             let formData = new FormData(formDataFiscal);
@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', function(){
                         swal("Error", objData.msg , "error");
                     }
                 }
-                //divLoading.style.display = "none";
+                divLoading.style.display = "none";
                 return false;
             }
         }

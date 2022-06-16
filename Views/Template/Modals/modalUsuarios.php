@@ -46,7 +46,7 @@
                     </select>
                 </div>
                 <div class="form-group col-md-6">
-                    <label for="listStatus">Estatus</label>
+                    <label for="listStatus">Status</label>
                     <select class="form-control" id="listStatus" name="listStatus" required >
                         <option value="1">Activo</option>
                         <option value="2">Inactivo</option>

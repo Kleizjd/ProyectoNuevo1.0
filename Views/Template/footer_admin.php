@@ -52,7 +52,8 @@
 <!--===============================================================================================-->
 <script type="text/javascript" src="<?= media(); ?>/js/plugins/sweetalert.min.js"></script>
 <!--===============================================================================================-->
-<script type="text/javascript" src="<?= media();?>/js/functions_admin.js"></script> 
+<!-- Datatables JS -->
+<!-- <script src="../../assets/vendor/sb-admin-2/lib/datatables/js/datatables.min.js"></script> -->
 <script src="<?= media(); ?>/js/<?= $data['page_functions_js']; ?>"></script>
 <script>
     // $(document).on('click','.navbar-collapse.in',function(e) {
