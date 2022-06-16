@@ -46,8 +46,8 @@
     <link href="<?= media() ?>/vendor/sweetalert/css/sweetalert2.min.css" rel="stylesheet">
     <!-- Datepicker Jquery-UI CSS -->
     <!--------------------------------CALENDAR [DATE-TIME-PICKER]-------------------------------->
-    <link href="<?= media() ?>/vendor/DateTimePicker/css/materialDateTimePicker.css" rel="stylesheet" />
-    <link href='<?= media() ?>/vendor/DateTimePicker/css/addfonts.css' rel='stylesheet' type='text/css'>
+    <link href="<?= media() ?>/endor/DateTimePicker/css/materialDateTimePicker.css" rel="stylesheet" />
+    <link href='<?= media() ?>/endor/DateTimePicker/css/addfonts.css' rel='stylesheet' type='text/css'>
     <!------------------------------------------------------------------------------------------->
     <!-- Select2 CSS -->
     <link href="<?= media() ?>/vendor/select2/css/select2.min.css" rel="stylesheet">
