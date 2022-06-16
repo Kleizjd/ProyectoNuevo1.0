@@ -10,22 +10,20 @@
     <meta name="description" content="Productos JD GO">
     <meta name="robots" content="noindex,nofollow">
     <link rel="shortcut icon" href="<?= media() ?>/images/background/Always2.jpg" type="image/x-icon">
-    <title><?= $data['page_tag']?></title>
+    <title>Venta de productos</title>
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="<?= media() ?>/images/favicon.png">
     <!-- This page CSS -->
-  
-    <!-- Main CSS-->
-    <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/main.css">
-    <link rel="stylesheet" type="text/css" href="<?= media();?>/css/bootstrap-select.min.css"> 
-    <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/ownstyle.css"> 
-    <!--================================[ STYLES ]========================================================-->
-    <link href="<?= media() ?>/template/dist/css/style.css" rel="stylesheet">
-      <!-- chartist CSS -->
-      <link href="<?= media() ?>/node_modules/morris.css" rel="stylesheet">
+    <!-- chartist CSS -->
+    <link href="<?= media() ?>/node_modules/morris.css" rel="stylesheet">
     <!--c3 plugins CSS -->
     <link href="<?= media() ?>/node_modules/c3-master/c3.min.css" rel="stylesheet">
+    <!-- Main CSS-->
+    <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/main.css">
+    <!--================================[ STYLES ]========================================================-->
+    <link href="<?= media() ?>/template/dist/css/style.css" rel="stylesheet">
     <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/ownstyle.css">
     <!-- Dashboard 1 Page CSS -->
     <link href="<?= media() ?>/template/dist/css/pages/dashboard1.css" rel="stylesheet">
     <!--===================================================================================================-->
@@ -43,7 +41,6 @@
     <!-- Datatables CSS -->
     <link href="<?= media() ?>/vendor/datatables/DataTables-1.10.18/css/dataTables.bootstrap4.css" rel="stylesheet">
     <!-- Sweet alert 2 CSS -->
-    <link href="<?= media() ?>/vendor/sweetalert/css/sweetalert2.min.css" rel="stylesheet">
     <!-- Datepicker Jquery-UI CSS -->
     <!--------------------------------CALENDAR [DATE-TIME-PICKER]-------------------------------->
     <link href="<?= media() ?>/endor/DateTimePicker/css/materialDateTimePicker.css" rel="stylesheet" />
